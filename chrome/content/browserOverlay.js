@@ -297,6 +297,10 @@ var abHere2 = {
 		}
 	},
 
+	nodeIsReadOnly: function(node) {
+		return PlacesUtils.nodeIsFolder(node) && PlacesUIUtils.isContentsReadOnly(node); // Firefox36+
+	},
+
 	trySortFolderByName: function(itemId) {
 		var sorted = abHere2.getAnnoIsFolderSortByName(itemId);
 		if (sorted) {
@@ -352,7 +356,7 @@ var abHere2 = {
 	createAddBookmarkHereItems: function(target) {
 		var node = target._placesNode;
 		if (!node) return;
-		if (PlacesUtils.nodeIsReadOnly(node)) return;
+		if (abHere2.nodeIsReadOnly(node)) return;
 		if (!PlacesUtils.nodeIsFolder(node) && !PlacesUtils.nodeIsTagQuery(node)) return;
 
 		var abhere = abHere2.get1stElementByAttribute(target, "class", "abhere-menuitem");
@@ -477,7 +481,7 @@ var abHere2 = {
 		var isEnabled = Preferences.get("extensions.abhere2.context.addbmhere", true);
 		if (isEnabled) {
 			var ip = abHere2.getInsertionPointDetails(event.originalTarget);
-			if (ip && ip.node && !PlacesUtils.nodeIsReadOnly(ip.node)) {
+			if (ip && ip.node && !abHere2.nodeIsReadOnly(ip.node)) {
 				var _icon = Preferences.get("extensions.abhere2.misc.showIconic", true);
 				var bmNew = event.originalTarget.ownerDocument.getElementById("placesContext_new:bookmark");
 				var bmABH = document.createElement("menuitem");
