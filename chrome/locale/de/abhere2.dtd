@@ -1,0 +1,58 @@
+<!ENTITY dialog.title "Add Bookmark Here ² - Einstellungen">
+<!ENTITY pane.main "Allgemein">
+<!ENTITY pane.panel "Panel">
+<!ENTITY pane.menu "Menü">
+<!ENTITY pane.advanced "Erweitert">
+<!ENTITY position.group "Position der Menüeinträge">
+<!ENTITY position.item.abHere "Eintrag „Lesezeichen hier hinzufügen...“:">
+<!ENTITY position.item.opTabs "Eintrag „Alle in Tabs öffnen“:">
+<!ENTITY position.option.top "am Anfang">
+<!ENTITY position.option.bottom "am Ende">
+<!ENTITY position.option.hidden "ausgeblendet">
+<!ENTITY clicking.group "Mausklick">
+<!ENTITY clicking.item.buttonL "Linksklick:">
+<!ENTITY clicking.item.buttonM "Mittelklick:">
+<!ENTITY clicking.item.buttonR "Rechtsklick:">
+<!ENTITY clicking.option.bmPage "Lesezeichen für diese Seite hinzufügen">
+<!ENTITY clicking.option.bmNoUI "Lesezeichen für diese Seite hinzufügen (ohne Dialog)">
+<!ENTITY clicking.option.bmTabs "Lesezeichen für alle Tabs hinzufügen…">
+<!ENTITY clicking.option.opTabs "Alle in Tabs öffnen">
+<!ENTITY starUI.group "Lesezeichen bearbeiten Dialog">
+<!ENTITY starUI.row.name "Name">
+<!ENTITY starUI.row.location "Adresse">
+<!ENTITY starUI.row.folderPicker "Ordner">
+<!ENTITY starUI.row.tags "Schlagwörter">
+<!ENTITY starUI.row.keyword "Schlüsselwort">
+<!ENTITY starUI.row.description "Beschreibung">
+<!ENTITY starUI.row.loadInSidebar "Dieses Lesezeichen in der Sidebar laden">
+<!ENTITY starUI.expand.folderRow "Alle Lesezeichen-Ordner anzeigen">
+<!ENTITY starUI.expand.tagsRow "Alle Schlagwörter anzeigen">
+<!ENTITY starUI.misc.tagsInline "Schlagwörter vervollständigen">
+<!ENTITY bmsmenu.group "Lesezeichen-Menü">
+<!ENTITY bmsmenu.item.addbmhere "„Lesezeichen hier hinzufügen...“ anzeigen">
+<!ENTITY bmsmenu.item.bmcurpage "„Lesezeichen für diese Seite hinzufügen“ anzeigen">
+<!ENTITY bmsmenu.item.bmalltabs "„Lesezeichen für alle Tabs hinzufügen“ anzeigen">
+<!ENTITY bmsmenu.item.subscribe "„Diese Seite abonnieren...“ anzeigen">
+<!ENTITY bmsmenu.item.showallbm "„Alle Lesezeichen anzeigen“ anzeigen">
+<!ENTITY bmsmenu.item.viewbmbar "„Lesezeichen-Symbolleiste anzeigen“ anzeigen">
+<!ENTITY bmsmenu.item.bmtoolbar "„Lesezeichen-Symbolleiste“ anzeigen">
+<!ENTITY bmsmenu.item.unsrtmenu "„Unsortierte Lesezeichen“ anzeigen">
+<!ENTITY folder.group "Lesezeichen-Ordner">
+<!ENTITY folder.item.middleClick "Mittelklick:">
+<!ENTITY folder.item.insideFolder "Rechtsklick auf einen Ordner, um Lesezeichen in diesen Ordner hinzuzufügen">
+<!ENTITY folder.item.autoTagFolder "Den Ordnernamen automatische als Schlagwort für neue Lesezeichen verwenden">
+<!ENTITY starBtn.group "Lesezeichen-Stern">
+<!ENTITY starBtn.clicking.item.buttonL "Linksklick:">
+<!ENTITY starBtn.clicking.item.buttonM "Mittelklick:">
+<!ENTITY starBtn.clicking.item.buttonR "Rechtsklick:">
+<!ENTITY starBtn.clicking.option.defaultBehavior "Standardverhalten">
+<!ENTITY starBtn.clicking.option.toggleMode "(umschalten)">
+<!ENTITY starBtn.clicking.option.unsortedFolder "Lesezeichen unter „Unsortierte Lesezeichen“ ablegen">
+<!ENTITY starBtn.clicking.option.singleClick "Dialog durch einmaliges Klicken anzeigen">
+<!ENTITY starBtn.clicking.option.openLibrary "Bibliothek zum Verwalten der Lesezeichen öffnen…">
+<!ENTITY starBtn.clicking.option.prefsDialog "„Add Bookmark Here ²“-Einstellungen öffnen…">
+<!ENTITY folderUnsorted.group "Den Ordner „Unsortierte Lesezeichen“ anpassen">
+<!ENTITY misc.group "Verschiedenes">
+<!ENTITY misc.insertTop "Neue Lesezeichen am Anfang einsortieren">
+<!ENTITY misc.showIconic "Symbol neben dem Menüpunkt „Lesezeichen für diese Seite hier hinzufügen…“ anzeigen">
+<!ENTITY misc.ignorePinned "Angepinnte Tabs bei „Lesezeichen für alle Tabs hinzufügen…“ ignorieren">

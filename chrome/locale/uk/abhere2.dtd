@@ -1,0 +1,58 @@
+<!ENTITY dialog.title "Параметри Add Bookmark Here ²">
+<!ENTITY pane.main "Головні">
+<!ENTITY pane.panel "Панель закладок">
+<!ENTITY pane.menu "Меню закладок">
+<!ENTITY pane.advanced "Додаткові">
+<!ENTITY position.group "Позиція пункта меню">
+<!ENTITY position.item.abHere "Оберіть позицію [Додати закладку сюди...]:">
+<!ENTITY position.item.opTabs "Оберіть позицію [Відкрити усе у вкладках]:">
+<!ENTITY position.option.top "Зверху">
+<!ENTITY position.option.bottom "Знизу">
+<!ENTITY position.option.hidden "Сховати">
+<!ENTITY clicking.group "Клацання кнопки миші">
+<!ENTITY clicking.item.buttonL "лівої:">
+<!ENTITY clicking.item.buttonM "середньої:">
+<!ENTITY clicking.item.buttonR "правої:">
+<!ENTITY clicking.option.bmPage "Закласти цю сторінку">
+<!ENTITY clicking.option.bmNoUI "Закласти цю сторінку (без діалогу)">
+<!ENTITY clicking.option.bmTabs "Закласти усі сторінки...">
+<!ENTITY clicking.option.opTabs "Відкрити усе у вкладках">
+<!ENTITY starUI.group "Налаштування діалогу &quot;Сторінку закладено&quot;">
+<!ENTITY starUI.row.name "Ім\'я">
+<!ENTITY starUI.row.location "Адреса">
+<!ENTITY starUI.row.folderPicker "Тека">
+<!ENTITY starUI.row.tags "Мітки">
+<!ENTITY starUI.row.keyword "Ключове слово">
+<!ENTITY starUI.row.description "Опис">
+<!ENTITY starUI.row.loadInSidebar "Завантажувати цю закладку у бічній панелі">
+<!ENTITY starUI.expand.folderRow "Розгортати дерево тек">
+<!ENTITY starUI.expand.tagsRow "Розгортати лист міток">
+<!ENTITY starUI.misc.tagsInline "Показувати мітки у рядках">
+<!ENTITY bmsmenu.group "Меню закладок">
+<!ENTITY bmsmenu.item.addbmhere "Показувати [Додати закладку сюди...]">
+<!ENTITY bmsmenu.item.bmcurpage "Показувати [Закласти цю сторінку]">
+<!ENTITY bmsmenu.item.bmalltabs "Показувати [Закласти всі вкладки...]">
+<!ENTITY bmsmenu.item.subscribe "Показувати [Підписатися на цю сторінку...]">
+<!ENTITY bmsmenu.item.showallbm "Показувати [Показати усі закладки]">
+<!ENTITY bmsmenu.item.viewbmbar "Показувати [Відкрити Панель закладок]">
+<!ENTITY bmsmenu.item.bmtoolbar "Показувати [Панель закладок]">
+<!ENTITY bmsmenu.item.unsrtmenu "Показувати [Не сортовані закладки]">
+<!ENTITY folder.group "Тека закладок">
+<!ENTITY folder.item.middleClick "Клацання середньою кнопкою:">
+<!ENTITY folder.item.insideFolder "Клацання правою кнопкою для додавання закладок у папку">
+<!ENTITY folder.item.autoTagFolder "Використовувати назву папки для авто-встановлення мітки до закладки, що додається">
+<!ENTITY starBtn.group "Зірка додавання у закладки">
+<!ENTITY starBtn.clicking.item.buttonL "Клацання лівою кнопкою:">
+<!ENTITY starBtn.clicking.item.buttonM "Клацання середньою кнопкою:">
+<!ENTITY starBtn.clicking.item.buttonR "Клацання правою кнопкою:">
+<!ENTITY starBtn.clicking.option.defaultBehavior "Типова поведінка">
+<!ENTITY starBtn.clicking.option.toggleMode "(із перемиканням)">
+<!ENTITY starBtn.clicking.option.unsortedFolder "Додавати закладки у теку &quot;Не впорядковані закладки&quot;">
+<!ENTITY starBtn.clicking.option.singleClick "Показувати діалог після одного клацання">
+<!ENTITY starBtn.clicking.option.openLibrary "Впорядкування закладок...">
+<!ENTITY starBtn.clicking.option.prefsDialog "Відкрити параметри Add Bookmark Here ²">
+<!ENTITY folderUnsorted.group "Настройка теки «Не впорядковані закладки»">
+<!ENTITY misc.group "Інше">
+<!ENTITY misc.insertTop "Вставляти закладки у меню зверху">
+<!ENTITY misc.showIconic "Показувати [Додати закладку сюди...] у меню">
+<!ENTITY misc.ignorePinned "Ігнорувати закладені вкладки при [Закласти всі вкладки...]">

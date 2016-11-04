@@ -1,0 +1,58 @@
+<!ENTITY dialog.title "Add Bookmark Here ² Options">
+<!ENTITY pane.main "Main">
+<!ENTITY pane.panel "Panel">
+<!ENTITY pane.menu "Menu">
+<!ENTITY pane.advanced "Advanced">
+<!ENTITY position.group "Menuitem Position">
+<!ENTITY position.item.abHere "Choose [Add Bookmark Here...] Position:">
+<!ENTITY position.item.opTabs "Choose [Open All in Tabs] Position:">
+<!ENTITY position.option.top "Top">
+<!ENTITY position.option.bottom "Bottom">
+<!ENTITY position.option.hidden "Hidden">
+<!ENTITY clicking.group "Mouse Clicking">
+<!ENTITY clicking.item.buttonL "Left-Click:">
+<!ENTITY clicking.item.buttonM "Middle-Click:">
+<!ENTITY clicking.item.buttonR "Right-Click:">
+<!ENTITY clicking.option.bmPage "Bookmark This Page">
+<!ENTITY clicking.option.bmNoUI "Bookmark This Page (without Dialog)">
+<!ENTITY clicking.option.bmTabs "Bookmark All Tabs...">
+<!ENTITY clicking.option.opTabs "Open All in Tabs">
+<!ENTITY starUI.group "Edit Bookmark Dialog">
+<!ENTITY starUI.row.name "Name">
+<!ENTITY starUI.row.location "Location">
+<!ENTITY starUI.row.folderPicker "Folder">
+<!ENTITY starUI.row.tags "Tags">
+<!ENTITY starUI.row.keyword "Keyword">
+<!ENTITY starUI.row.description "Description">
+<!ENTITY starUI.row.loadInSidebar "Load this bookmark in the sidebar">
+<!ENTITY starUI.expand.folderRow "Expand the Folder Tree">
+<!ENTITY starUI.expand.tagsRow "Expand the Tags List">
+<!ENTITY starUI.misc.tagsInline "Display the Tags in Inline">
+<!ENTITY bmsmenu.group "Bookmarks Menu">
+<!ENTITY bmsmenu.item.addbmhere "Show [Add Bookmark Here...]">
+<!ENTITY bmsmenu.item.bmcurpage "Show [Bookmark This Page]">
+<!ENTITY bmsmenu.item.bmalltabs "Show [Bookmark All Tabs...]">
+<!ENTITY bmsmenu.item.subscribe "Show [Subscribe to This Page...]">
+<!ENTITY bmsmenu.item.showallbm "Show [Show All Bookmarks]">
+<!ENTITY bmsmenu.item.viewbmbar "Show [View Bookmarks Toolbar]">
+<!ENTITY bmsmenu.item.bmtoolbar "Show [Bookmarks Toolbar]">
+<!ENTITY bmsmenu.item.unsrtmenu "Show [Unsorted Bookmarks]">
+<!ENTITY folder.group "Bookmarks Folder">
+<!ENTITY folder.item.middleClick "Middle-Click:">
+<!ENTITY folder.item.insideFolder "Right-Click to Add Bookmarks will place inside the Folder">
+<!ENTITY folder.item.autoTagFolder "Using the Folder name to auto-Tag the added Bookmarks">
+<!ENTITY starBtn.group "Bookmark Star">
+<!ENTITY starBtn.clicking.item.buttonL "Left-Click:">
+<!ENTITY starBtn.clicking.item.buttonM "Middle-Click:">
+<!ENTITY starBtn.clicking.item.buttonR "Right-Click:">
+<!ENTITY starBtn.clicking.option.defaultBehavior "Default Behavior">
+<!ENTITY starBtn.clicking.option.toggleMode "(Toggle)">
+<!ENTITY starBtn.clicking.option.unsortedFolder "Add to Unsorted Bookmarks Folder">
+<!ENTITY starBtn.clicking.option.singleClick "Show the Dialog with a Single Click">
+<!ENTITY starBtn.clicking.option.openLibrary "Open Library to Organize Bookmarks...">
+<!ENTITY starBtn.clicking.option.prefsDialog "Open Add Bookmark Here ² Options...">
+<!ENTITY folderUnsorted.group "Customize the Unsorted Bookmarks Folder">
+<!ENTITY misc.group "Miscellaneous">
+<!ENTITY misc.insertTop "Insert Bookmarks to the Top of Menu">
+<!ENTITY misc.showIconic "Show [Add Bookmark Here...] Menuitem Icon">
+<!ENTITY misc.ignorePinned "Ignore Pinned Tabs when [Bookmark All Tabs...]">

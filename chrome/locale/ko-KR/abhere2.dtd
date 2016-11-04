@@ -1,0 +1,58 @@
+<!ENTITY dialog.title "Add Bookmark Here ² 설정">
+<!ENTITY pane.main "기본">
+<!ENTITY pane.panel "패널">
+<!ENTITY pane.menu "메뉴">
+<!ENTITY pane.advanced "고급">
+<!ENTITY position.group "메뉴 항목 위치">
+<!ENTITY position.item.abHere "[Add Bookmark Here...] 위치 선택:">
+<!ENTITY position.item.opTabs "[Open All in Tabs] 위치 선택:">
+<!ENTITY position.option.top "상단">
+<!ENTITY position.option.bottom "하단">
+<!ENTITY position.option.hidden "숨김">
+<!ENTITY clicking.group "마우스 클릭">
+<!ENTITY clicking.item.buttonL "왼쪽 클릭:">
+<!ENTITY clicking.item.buttonM "가운데 클릭:">
+<!ENTITY clicking.item.buttonR "오른쪽 클릭:">
+<!ENTITY clicking.option.bmPage "페이지 북마크">
+<!ENTITY clicking.option.bmNoUI "페이지 북마크 (편집창 없이)">
+<!ENTITY clicking.option.bmTabs "모든 탭 북마크">
+<!ENTITY clicking.option.opTabs "탭으로 모두 열기">
+<!ENTITY starUI.group "북마크 편집창">
+<!ENTITY starUI.row.name "이름">
+<!ENTITY starUI.row.location "주소">
+<!ENTITY starUI.row.folderPicker "폴더">
+<!ENTITY starUI.row.tags "태그">
+<!ENTITY starUI.row.keyword "키워드">
+<!ENTITY starUI.row.description "설명">
+<!ENTITY starUI.row.loadInSidebar "현재 북마크를 사이드 바에서 읽기">
+<!ENTITY starUI.expand.folderRow "폴더 트리 확장">
+<!ENTITY starUI.expand.tagsRow "태그 트리 확장">
+<!ENTITY starUI.misc.tagsInline "태그 목록을 한 줄로 표시">
+<!ENTITY bmsmenu.group "북마크 메뉴">
+<!ENTITY bmsmenu.item.addbmhere "[Add Bookmark Here...] 보이기">
+<!ENTITY bmsmenu.item.bmcurpage "[Bookmark This Page] 보이기">
+<!ENTITY bmsmenu.item.bmalltabs "[Bookmark All Tabs...] 보이기">
+<!ENTITY bmsmenu.item.subscribe "[Subscribe to This Page...] 보이기">
+<!ENTITY bmsmenu.item.showallbm "[Show All Bookmarks] 보이기">
+<!ENTITY bmsmenu.item.viewbmbar "[View Bookmarks Toolbar] 보이기">
+<!ENTITY bmsmenu.item.bmtoolbar "[Bookmarks Toolbar] 보이기">
+<!ENTITY bmsmenu.item.unsrtmenu "[Unsorted Bookmarks] 보이기">
+<!ENTITY folder.group "북마크 폴더">
+<!ENTITY folder.item.middleClick "가운데 클릭:">
+<!ENTITY folder.item.insideFolder "오른쪽 클릭으로 폴더 안에서 북마크하기">
+<!ENTITY folder.item.autoTagFolder "북마크할 때 폴더 이름으로 자동 태그하기">
+<!ENTITY starBtn.group "별표 아이콘">
+<!ENTITY starBtn.clicking.item.buttonL "왼쪽 클릭:">
+<!ENTITY starBtn.clicking.item.buttonM "가운데 클릭:">
+<!ENTITY starBtn.clicking.item.buttonR "오른쪽 클릭:">
+<!ENTITY starBtn.clicking.option.defaultBehavior "기본 동작">
+<!ENTITY starBtn.clicking.option.toggleMode "(토글)">
+<!ENTITY starBtn.clicking.option.unsortedFolder "미분류 북마크 폴더에 추가">
+<!ENTITY starBtn.clicking.option.singleClick "한 번 클릭으로 편집창 열기">
+<!ENTITY starBtn.clicking.option.openLibrary "북마크 관리창 열기">
+<!ENTITY starBtn.clicking.option.prefsDialog "Add Bookmark Here ² 설정창 열기">
+<!ENTITY folderUnsorted.group "미분류 북마크 사용자 지정">
+<!ENTITY misc.group "기타">
+<!ENTITY misc.insertTop "메뉴 상단으로 북마크 삽입">
+<!ENTITY misc.showIconic "[Add Bookmark Here...] 메뉴 항목의 아이콘 표시">
+<!ENTITY misc.ignorePinned "[Bookmark All Tabs...]할 때 고정된 탭은 무시">

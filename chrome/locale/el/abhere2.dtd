@@ -1,0 +1,58 @@
+<!ENTITY dialog.title "Επιλογές του Add Bookmark Here ²">
+<!ENTITY pane.main "Βασικό">
+<!ENTITY pane.panel "Ταμπλό">
+<!ENTITY pane.menu "Μενού">
+<!ENTITY pane.advanced "Για προχωρημένους">
+<!ENTITY position.group "Θέση στο μενού">
+<!ENTITY position.item.abHere "Θέση του [Προσθήκη Σελιδοδείκτη εδώ]:">
+<!ENTITY position.item.opTabs "Θέση του [Άνοιγμα όλων σε καρτέλες]:">
+<!ENTITY position.option.top "Κορυφή">
+<!ENTITY position.option.bottom "Κάτω">
+<!ENTITY position.option.hidden "Κρυφό">
+<!ENTITY clicking.group "Ενέργειες ποντικιού">
+<!ENTITY clicking.item.buttonL "Αριστερό κλικ:">
+<!ENTITY clicking.item.buttonM "Μεσαίο κλικ:">
+<!ENTITY clicking.item.buttonR "Δεξί κλικ:">
+<!ENTITY clicking.option.bmPage "Η σελίδα ως σελιδοδείκτης">
+<!ENTITY clicking.option.bmNoUI "Η σελίδα ως σελιδοδείκτης (χωρίς παράθυρο διαλόγου)">
+<!ENTITY clicking.option.bmTabs "Όλες οι καρτέλες ως σελιδοδείκτης">
+<!ENTITY clicking.option.opTabs "Άνοιγμα όλων σε καρτέλες">
+<!ENTITY starUI.group "Επεξεργασία διαλόγου Σελιδοδείκτη">
+<!ENTITY starUI.row.name "Όνομα">
+<!ENTITY starUI.row.location "Τοποθεσία">
+<!ENTITY starUI.row.folderPicker "Φάκελος">
+<!ENTITY starUI.row.tags "Ετικέτες">
+<!ENTITY starUI.row.keyword "Λέξη κλειδί">
+<!ENTITY starUI.row.description "Περιγραφή">
+<!ENTITY starUI.row.loadInSidebar "Άνοιγμα του σελιδοδείκτη στην πλευρική στήλη">
+<!ENTITY starUI.expand.folderRow "Ανάπτυξη του δένδρου φακέλων">
+<!ENTITY starUI.expand.tagsRow "Ανάπτυξη της λίστας ετικετών">
+<!ENTITY starUI.misc.tagsInline "Εμφάνιση των ετικετών εμβόλιμα">
+<!ENTITY bmsmenu.group "Μενού σελιδοδεικτών">
+<!ENTITY bmsmenu.item.addbmhere "Εμφάνιση του [Προσθήκη Σελιδοδείκτη εδώ...]">
+<!ENTITY bmsmenu.item.bmcurpage "Εμφάνιση του [Προσθήκη στους σελιδοδείκτες]">
+<!ENTITY bmsmenu.item.bmalltabs "Εμφάνιση του [Όλες οι καρτέλες ως σελιδοδείκτης...]">
+<!ENTITY bmsmenu.item.subscribe "Εμφάνιση του [Συνδρομή σε αυτή την σελίδα...]">
+<!ENTITY bmsmenu.item.showallbm "Εμφάνιση του [Εμφάνιση όλων των σελιδοδεικτών]">
+<!ENTITY bmsmenu.item.viewbmbar "Εμφάνιση του [Προβολή Εργαλειοθήκης σελιδοδεικτών]">
+<!ENTITY bmsmenu.item.bmtoolbar "Εμφάνιση [Εργαλειοθήκη σελιδοδεικτών]">
+<!ENTITY bmsmenu.item.unsrtmenu "Εμφάνιση [Αταξινόμητοι Σελιδοδείκτες]">
+<!ENTITY folder.group "Φάκελος σελιδοδεικτών">
+<!ENTITY folder.item.middleClick "Μεσαίο κλικ:">
+<!ENTITY folder.item.insideFolder "Δεξί-κλικ στο Προσθήκη Σελιδοδεικτών θα τους τοποθετήσει μέσα στον φάκελο">
+<!ENTITY folder.item.autoTagFolder "Χρήση του ονόματος του φακέλου για αυτόματη προσθήκη ετικέτας στον Σελιδοδείκτη">
+<!ENTITY starBtn.group "Αστερίσκος σελιδοδεικτών">
+<!ENTITY starBtn.clicking.item.buttonL "Αριστερό κλικ:">
+<!ENTITY starBtn.clicking.item.buttonM "Μεσαίο κλικ:">
+<!ENTITY starBtn.clicking.item.buttonR "Δεξί κλικ:">
+<!ENTITY starBtn.clicking.option.defaultBehavior "Προκαθορισμένη συμπεριφορά">
+<!ENTITY starBtn.clicking.option.toggleMode "(Εναλλαγή)">
+<!ENTITY starBtn.clicking.option.unsortedFolder "Προσθήκη στον φάκελο των αταξινόμητων σελιδοδεικτών">
+<!ENTITY starBtn.clicking.option.singleClick "Κλικ στον αστερίσκο σελιδοδεικτών για εμφάνιση του διαλόγου">
+<!ENTITY starBtn.clicking.option.openLibrary "Άνοιγμα βιβλιοθήκης για οργάνωση σελιδοδεικτών...">
+<!ENTITY starBtn.clicking.option.prefsDialog "Άνοιγμα επιλογών του Add Bookmark Here ²...">
+<!ENTITY folderUnsorted.group "Παραμετροποίηση του φακέλου αταξινόμητων σελιδοδεικτών">
+<!ENTITY misc.group "Διάφορα">
+<!ENTITY misc.insertTop "Προσθήκη νέων σελιδοδεικτών στην κορυφή του μενού">
+<!ENTITY misc.showIconic "Εμφάνιση αντικειμένου μενού [Προσθήκη Σελιδοδείκτη εδώ...]">
+<!ENTITY misc.ignorePinned "Αγνόησε τις πρωτεύουσες καρτέλες στο [Όλες οι καρτέλες ως σελιδοδείκτης...]">

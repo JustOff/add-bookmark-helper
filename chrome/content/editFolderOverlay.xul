@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://abhere2/skin/abhere2.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://browser/locale/places/places.dtd">
+
+<overlay id="editFolderOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <vbox id="editBookmarkPanelContent">
+    <checkbox id="editBMPanel_sortByNameCheckbox"
+              label="&cmd.sortby_name.label;"
+              accesskey="&cmd.sortby_name.accesskey;"
+              oncommand="abHere2.onSortByNameCheckboxCommand(this.checked);"
+              observes="paneElementsBroadcaster">
+      <observes element="additionalInfoBroadcaster" attribute="hidden"/>
+    </checkbox>
+  </vbox>
+
+<script type="application/x-javascript" src="chrome://abhere2/content/editFolderOverlay.js"/>
+
+</overlay>

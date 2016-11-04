@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<bindings id="listboxBindings"
+          xmlns="http://www.mozilla.org/xbl"
+          xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+          xmlns:xbl="http://www.mozilla.org/xbl">
+
+  <binding id="listrows">
+
+    <resources>
+      <stylesheet src="chrome://global/skin/listbox.css"/>
+    </resources>
+
+    <handlers>
+      <handler event="DOMMouseScroll" phase="capturing">
+      <![CDATA[
+        if (this.lastChild.style.display == "inline-block")
+          return;
+        if (event.axis == event.HORIZONTAL_AXIS)
+          return;
+
+        var listBox = this.parentNode.listBoxObject;
+        var rows = event.detail;
+        if (rows == UIEvent.SCROLL_PAGE_UP)
+          rows = -listBox.getNumberOfVisibleRows();
+        else if (rows == UIEvent.SCROLL_PAGE_DOWN)
+          rows = listBox.getNumberOfVisibleRows();
+
+        listBox.scrollByLines(rows);
+        event.preventDefault();
+      ]]>
+      </handler>
+    </handlers>
+  </binding>
+
+</bindings>
+

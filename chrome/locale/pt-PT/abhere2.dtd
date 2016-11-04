@@ -1,0 +1,58 @@
+<!ENTITY dialog.title "Adicionar Bookmark Here ² Options">
+<!ENTITY pane.main "Principal">
+<!ENTITY pane.panel "Painel">
+<!ENTITY pane.menu "Menu">
+<!ENTITY pane.advanced "Avançado">
+<!ENTITY position.group "Posição do Menuitem">
+<!ENTITY position.item.abHere "Escolha a posição [Add Bookmark Here]:">
+<!ENTITY position.item.opTabs "Escolha a posição [Open All in Tabs]:">
+<!ENTITY position.option.top "Topo">
+<!ENTITY position.option.bottom "Fundo">
+<!ENTITY position.option.hidden "Oculto">
+<!ENTITY clicking.group "Clique do rato">
+<!ENTITY clicking.item.buttonL "Clique esquerdo:">
+<!ENTITY clicking.item.buttonM "Clique central:">
+<!ENTITY clicking.item.buttonR "Clique direito:">
+<!ENTITY clicking.option.bmPage "Adicionar esta pasta aos marcadores">
+<!ENTITY clicking.option.bmNoUI "Adicionar esta pasta aos marcadores (sem diálogo)">
+<!ENTITY clicking.option.bmTabs "Adicionar todos os separadores aos marcadores">
+<!ENTITY clicking.option.opTabs "Abrir tudo em separadores">
+<!ENTITY starUI.group "Diálogo de marcadores">
+<!ENTITY starUI.row.name "Nome">
+<!ENTITY starUI.row.location "Localização">
+<!ENTITY starUI.row.folderPicker "Pasta">
+<!ENTITY starUI.row.tags "Etiquetas">
+<!ENTITY starUI.row.keyword "Palavra chave">
+<!ENTITY starUI.row.description "Descrição">
+<!ENTITY starUI.row.loadInSidebar "Carregar este marcador na barra lateral">
+<!ENTITY starUI.expand.folderRow "Expandir a árvore das pastas">
+<!ENTITY starUI.expand.tagsRow "Expandir a lista de etiquetas">
+<!ENTITY starUI.misc.tagsInline "Mostrar as etiquetas em linha">
+<!ENTITY bmsmenu.group "Menu de marcadores">
+<!ENTITY bmsmenu.item.addbmhere "Mostrar [Adicionar marcador aqui...]">
+<!ENTITY bmsmenu.item.bmcurpage "Mostrar [Criar marcador para esta página]">
+<!ENTITY bmsmenu.item.bmalltabs "Mostrar [Adicionar tudo aos marcadores...]">
+<!ENTITY bmsmenu.item.subscribe "Mostrar [Subscrever esta página...]">
+<!ENTITY bmsmenu.item.showallbm "Mostrar [Motrar todos os marcadores}">
+<!ENTITY bmsmenu.item.viewbmbar "Mostrar [Ver barra de ferramentas dos marcadores]">
+<!ENTITY bmsmenu.item.bmtoolbar "Mostrar [Barra de ferramentas de Marcadores]">
+<!ENTITY bmsmenu.item.unsrtmenu "Mostrar [Marcadores desorganizados]">
+<!ENTITY folder.group "Pasta de marcadores">
+<!ENTITY folder.item.middleClick "Clique central:">
+<!ENTITY folder.item.insideFolder "Clique central numa pasta para adicionar marcadores enquanto adicionar dentro da pasta">
+<!ENTITY folder.item.autoTagFolder "A usar o nome da pasta para auto-etiquetar os marcadores adicionados">
+<!ENTITY starBtn.group "Marcadore estrela">
+<!ENTITY starBtn.clicking.item.buttonL "Clique esquerdo:">
+<!ENTITY starBtn.clicking.item.buttonM "Clique central:">
+<!ENTITY starBtn.clicking.item.buttonR "Clique direito:">
+<!ENTITY starBtn.clicking.option.defaultBehavior "Comportamento pré-definido">
+<!ENTITY starBtn.clicking.option.toggleMode "(Trocar)">
+<!ENTITY starBtn.clicking.option.unsortedFolder "Marcadores para a pasta de marcadores desorganizados">
+<!ENTITY starBtn.clicking.option.singleClick "Clique único na estrela de marcadores para mostrar o diálogo">
+<!ENTITY starBtn.clicking.option.openLibrary "Abrir biblioteca para organizar os marcadores...">
+<!ENTITY starBtn.clicking.option.prefsDialog "Abrir as opções do Add Bookmark Here ²">
+<!ENTITY folderUnsorted.group "Personalizar a pasta de marcadores desorganizados">
+<!ENTITY misc.group "Miscelânea">
+<!ENTITY misc.insertTop "Inserir marcadores ao topo do menu">
+<!ENTITY misc.showIconic "Mostrar [Adicionar marcador aqui...] ícone do item do menu">
+<!ENTITY misc.ignorePinned "Ignorar separadores quando [Adicionar todos separadores aos marcadores...]">

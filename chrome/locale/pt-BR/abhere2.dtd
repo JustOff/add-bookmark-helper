@@ -1,0 +1,58 @@
+<!ENTITY dialog.title "Opções de Add Bookmark Here">
+<!ENTITY pane.main "Principal">
+<!ENTITY pane.panel "Painel">
+<!ENTITY pane.menu "Menu">
+<!ENTITY pane.advanced "Avançado">
+<!ENTITY position.group "Posição do item de Menu">
+<!ENTITY position.item.abHere "Escolher [Add Bookmark Here] posição:">
+<!ENTITY position.item.opTabs "Escolher [Abrir em todas as abas] posição:">
+<!ENTITY position.option.top "Topo">
+<!ENTITY position.option.bottom "Fundo">
+<!ENTITY position.option.hidden "Escondido">
+<!ENTITY clicking.group "Clique do Mouse">
+<!ENTITY clicking.item.buttonL "Clique Esquerdo:">
+<!ENTITY clicking.item.buttonM "Clique do Meio:">
+<!ENTITY clicking.item.buttonR "Clique Direito:">
+<!ENTITY clicking.option.bmPage "Adicionar aos Favoritos essa Página">
+<!ENTITY clicking.option.bmNoUI "Adicionar aos Favoritos essa Página (sem diálogo)">
+<!ENTITY clicking.option.bmTabs "Adicionar aos Favoritos Todas as Abas">
+<!ENTITY clicking.option.opTabs "Abrir em todas as abas">
+<!ENTITY starUI.group "Caixa de Favoritos">
+<!ENTITY starUI.row.name "Nome">
+<!ENTITY starUI.row.location "Localização">
+<!ENTITY starUI.row.folderPicker "Pasta">
+<!ENTITY starUI.row.tags "Tags">
+<!ENTITY starUI.row.keyword "Palavra chave">
+<!ENTITY starUI.row.description "Descrição">
+<!ENTITY starUI.row.loadInSidebar "Carregar favoritos na barra lateral">
+<!ENTITY starUI.expand.folderRow "Expandir a Árvore de Diretório">
+<!ENTITY starUI.expand.tagsRow "Expandir a Lista de Tags">
+<!ENTITY starUI.misc.tagsInline "Mostrar as tags em linha">
+<!ENTITY bmsmenu.group "Menu dos Favoritos">
+<!ENTITY bmsmenu.item.addbmhere "Mostrar [Add Bookmark Here...]">
+<!ENTITY bmsmenu.item.bmcurpage "Mostrar [Adicionar essa página]">
+<!ENTITY bmsmenu.item.bmalltabs "Mostrar [Adicionar todas as abas...]">
+<!ENTITY bmsmenu.item.subscribe "Mostrar [Inscrever esse página...]">
+<!ENTITY bmsmenu.item.showallbm "Mostrar [Mostrar todos os Favoritos]">
+<!ENTITY bmsmenu.item.viewbmbar "Mostrar [Visualizar Barra de Ferramentas dos Favoritos]">
+<!ENTITY bmsmenu.item.bmtoolbar "Mostrar [Barra de Ferramentas dos Favoritos]">
+<!ENTITY bmsmenu.item.unsrtmenu "Mostrar [Favoritos não ordenados]">
+<!ENTITY folder.group "Pasta dos Favoritos">
+<!ENTITY folder.item.middleClick "Botão do meio:">
+<!ENTITY folder.item.insideFolder "Clicar com botão direito em uma pasta será adicionada os favoritos dentro da pasta">
+<!ENTITY folder.item.autoTagFolder "Usando o nome da pasta para adicionar auto-tag nos Favoritos">
+<!ENTITY starBtn.group "Estrela Favoritos">
+<!ENTITY starBtn.clicking.item.buttonL "Clique Esquerdo:">
+<!ENTITY starBtn.clicking.item.buttonM "Clique do Meio:">
+<!ENTITY starBtn.clicking.item.buttonR "Clique Direito:">
+<!ENTITY starBtn.clicking.option.defaultBehavior "Comportamento Padrão">
+<!ENTITY starBtn.clicking.option.toggleMode "(Alternar)">
+<!ENTITY starBtn.clicking.option.unsortedFolder "Favoritos para pasta de Favoritos não ordenados">
+<!ENTITY starBtn.clicking.option.singleClick "Clique Único na Estrela dos Favoritos para mostrar diálogo">
+<!ENTITY starBtn.clicking.option.openLibrary "Abrir biblioteca para organizar Favoritos...">
+<!ENTITY starBtn.clicking.option.prefsDialog "Abrir opções Add Bookmark Here ²">
+<!ENTITY folderUnsorted.group "Customizar a pasta de favoritos não ordenados">
+<!ENTITY misc.group "Miscelânea">
+<!ENTITY misc.insertTop "Inserir Favoritos no Topo do Menu">
+<!ENTITY misc.showIconic "Mostrar [Adicionar Favoritos Aqui...] como ícone no item de menu">
+<!ENTITY misc.ignorePinned "Ignorar Abas Fixadas quando [Adicionar Todas as Abas...]">

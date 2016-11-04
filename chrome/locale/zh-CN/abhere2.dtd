@@ -1,0 +1,58 @@
+<!ENTITY dialog.title "Add Bookmark Here ² 选项">
+<!ENTITY pane.main "主要">
+<!ENTITY pane.panel "面板">
+<!ENTITY pane.menu "菜单">
+<!ENTITY pane.advanced "高级">
+<!ENTITY position.group "菜单项位置">
+<!ENTITY position.item.abHere "选择“添加书签到此”的位置：">
+<!ENTITY position.item.opTabs "选择“在标签页中打开全部”的位置：">
+<!ENTITY position.option.top "顶部">
+<!ENTITY position.option.bottom "底部">
+<!ENTITY position.option.hidden "隐藏">
+<!ENTITY clicking.group "鼠标点击">
+<!ENTITY clicking.item.buttonL "点击左键：">
+<!ENTITY clicking.item.buttonM "点击中键：">
+<!ENTITY clicking.item.buttonR "点击右键：">
+<!ENTITY clicking.option.bmPage "将此页面加为书签">
+<!ENTITY clicking.option.bmNoUI "将此页面加为书签 (无对话框)">
+<!ENTITY clicking.option.bmTabs "将所有标签页加为书签">
+<!ENTITY clicking.option.opTabs "在新标签页打开全部">
+<!ENTITY starUI.group "书签对话框">
+<!ENTITY starUI.row.name "名称">
+<!ENTITY starUI.row.location "地址">
+<!ENTITY starUI.row.folderPicker "文件夹">
+<!ENTITY starUI.row.tags "标签">
+<!ENTITY starUI.row.keyword "关键字">
+<!ENTITY starUI.row.description "描述">
+<!ENTITY starUI.row.loadInSidebar "在侧栏中载入此书签">
+<!ENTITY starUI.expand.folderRow "展开文件夹树">
+<!ENTITY starUI.expand.tagsRow "展开标签列表">
+<!ENTITY starUI.misc.tagsInline "一行显示所有标签">
+<!ENTITY bmsmenu.group "书签菜单">
+<!ENTITY bmsmenu.item.addbmhere "显示 [添加书签到此...]">
+<!ENTITY bmsmenu.item.bmcurpage "显示 [将此页加为书签]">
+<!ENTITY bmsmenu.item.bmalltabs "显示 [将所有标签页加为书签...]">
+<!ENTITY bmsmenu.item.subscribe "显示 [订阅此页...]">
+<!ENTITY bmsmenu.item.showallbm "显示 [显示所有书签]">
+<!ENTITY bmsmenu.item.viewbmbar "显示 [查看书签工具栏]">
+<!ENTITY bmsmenu.item.bmtoolbar "显示“书签工具栏”">
+<!ENTITY bmsmenu.item.unsrtmenu "显示“未分类书签”">
+<!ENTITY folder.group "书签文件夹">
+<!ENTITY folder.item.middleClick "点击中键：">
+<!ENTITY folder.item.insideFolder "将书签添加到选中点击右键的文件夹">
+<!ENTITY folder.item.autoTagFolder "自动将新增书签的标签修改为对应文件夹的名字">
+<!ENTITY starBtn.group "书签星标">
+<!ENTITY starBtn.clicking.item.buttonL "点击左键：">
+<!ENTITY starBtn.clicking.item.buttonM "点击中键：">
+<!ENTITY starBtn.clicking.item.buttonR "点击右键：">
+<!ENTITY starBtn.clicking.option.defaultBehavior "默认动作">
+<!ENTITY starBtn.clicking.option.toggleMode "（切换）">
+<!ENTITY starBtn.clicking.option.unsortedFolder "将书签添加到未分类书签文件夹">
+<!ENTITY starBtn.clicking.option.singleClick "单击书签星标显示对话框">
+<!ENTITY starBtn.clicking.option.openLibrary "打开我的足迹来管理书签...">
+<!ENTITY starBtn.clicking.option.prefsDialog "打开 Add Bookmark Here ² 选项...">
+<!ENTITY folderUnsorted.group "定制未排序书签的文件夹">
+<!ENTITY misc.group "杂项">
+<!ENTITY misc.insertTop "将书签添加到菜单顶部">
+<!ENTITY misc.showIconic "显示 [添加书签到此...] 菜单图标">
+<!ENTITY misc.ignorePinned "将所有标签页加为书签时跳过固话标签页">
