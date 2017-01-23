@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<?xml-stylesheet href="chrome://abhere2/skin/abhere2.css" type="text/css"?>
+<?xml-stylesheet href="chrome://abh2me/skin/abh2me.css" type="text/css"?>
 
 <!DOCTYPE overlay SYSTEM "chrome://browser/locale/places/places.dtd">
 
@@ -9,12 +9,12 @@
     <checkbox id="editBMPanel_sortByNameCheckbox"
               label="&cmd.sortby_name.label;"
               accesskey="&cmd.sortby_name.accesskey;"
-              oncommand="abHere2.onSortByNameCheckboxCommand(this.checked);"
+              oncommand="abH2me.onSortByNameCheckboxCommand(this.checked);"
               observes="paneElementsBroadcaster">
       <observes element="additionalInfoBroadcaster" attribute="hidden"/>
     </checkbox>
   </vbox>
 
-<script type="application/x-javascript" src="chrome://abhere2/content/editFolderOverlay.js"/>
+<script type="application/x-javascript" src="chrome://abh2me/content/editFolderOverlay.js"/>
 
 </overlay>

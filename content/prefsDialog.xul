@@ -3,11 +3,11 @@
 <?xml-stylesheet href="chrome://browser/skin/places/places.css" ?>
 <?xml-stylesheet href="chrome://browser/content/places/places.css" ?>
 <?xul-overlay href="chrome://browser/content/places/placesOverlay.xul" ?>
-<?xml-stylesheet href="chrome://abhere2/skin/abhere2.css" type="text/css"?>
+<?xml-stylesheet href="chrome://abh2me/skin/abh2me.css" type="text/css"?>
 
-<!DOCTYPE window SYSTEM "chrome://abhere2/locale/abhere2.dtd">
+<!DOCTYPE window SYSTEM "chrome://abh2me/locale/abh2me.dtd">
 
-<prefwindow id="abHere2Prefs"
+<prefwindow id="abH2mePrefs"
      title="&dialog.title;"
      buttons="none"
      onload="window.sizeToContent();"
@@ -15,14 +15,14 @@
 
   <prefpane id="pane-main" label="&pane.main;">
     <preferences>
-      <preference id="abhere-position"   name="extensions.abhere2.position.abhere"   type="int"  instantApply="true"/>
-      <preference id="optabs-position"   name="extensions.abhere2.position.optabs"   type="int"  instantApply="true"/>
-      <preference id="clicking-left"     name="extensions.abhere2.clicking.left"     type="int"  instantApply="true"/>
-      <preference id="clicking-middle"   name="extensions.abhere2.clicking.middle"   type="int"  instantApply="true"/>
-      <preference id="clicking-right"    name="extensions.abhere2.clicking.right"    type="int"  instantApply="true"/>
-      <preference id="misc-inserttop"    name="extensions.abhere2.misc.insertTop"    type="bool" instantApply="true"/>
-      <preference id="misc-showiconic"   name="extensions.abhere2.misc.showIconic"   type="bool" instantApply="true"/>
-      <preference id="misc-ignorepinned" name="extensions.abhere2.misc.ignorePinned" type="bool" instantApply="true"/>
+      <preference id="abhere-position"   name="extensions.abh2me.position.abhere"   type="int"  instantApply="true"/>
+      <preference id="optabs-position"   name="extensions.abh2me.position.optabs"   type="int"  instantApply="true"/>
+      <preference id="clicking-left"     name="extensions.abh2me.clicking.left"     type="int"  instantApply="true"/>
+      <preference id="clicking-middle"   name="extensions.abh2me.clicking.middle"   type="int"  instantApply="true"/>
+      <preference id="clicking-right"    name="extensions.abh2me.clicking.right"    type="int"  instantApply="true"/>
+      <preference id="misc-inserttop"    name="extensions.abh2me.misc.insertTop"    type="bool" instantApply="true"/>
+      <preference id="misc-showiconic"   name="extensions.abh2me.misc.showIconic"   type="bool" instantApply="true"/>
+      <preference id="misc-ignorepinned" name="extensions.abh2me.misc.ignorePinned" type="bool" instantApply="true"/>
     </preferences>
 
     <vbox flex="1">
@@ -112,16 +112,16 @@
 
   <prefpane id ="pane-panel" label="&pane.panel;">
     <preferences>
-      <preference id="starui-row-name"          name="extensions.abhere2.starUI.row.name"          type="bool" instantApply="true"/>
-      <preference id="starui-row-location"      name="extensions.abhere2.starUI.row.location"      type="bool" instantApply="true"/>
-      <preference id="starui-row-folderPicker"  name="extensions.abhere2.starUI.row.folderPicker"  type="bool" instantApply="true"/>
-      <preference id="starui-row-tags"          name="extensions.abhere2.starUI.row.tags"          type="bool" instantApply="true"/>
-      <preference id="starui-row-keyword"       name="extensions.abhere2.starUI.row.keyword"       type="bool" instantApply="true"/>
-      <preference id="starui-row-description"   name="extensions.abhere2.starUI.row.description"   type="bool" instantApply="true"/>
-      <preference id="starui-row-loadInSidebar" name="extensions.abhere2.starUI.row.loadInSidebar" type="bool" instantApply="true"/>
-      <preference id="starui-expand-folderRow"  name="extensions.abhere2.starUI.expand.folderRow"  type="bool" instantApply="true"/>
-      <preference id="starui-expand-tagsRow"    name="extensions.abhere2.starUI.expand.tagsRow"    type="bool" instantApply="true"/>
-      <preference id="starui-misc-tagsinline"   name="extensions.abhere2.misc.tagsInline"          type="bool" instantApply="true"/>
+      <preference id="starui-row-name"          name="extensions.abh2me.starUI.row.name"          type="bool" instantApply="true"/>
+      <preference id="starui-row-location"      name="extensions.abh2me.starUI.row.location"      type="bool" instantApply="true"/>
+      <preference id="starui-row-folderPicker"  name="extensions.abh2me.starUI.row.folderPicker"  type="bool" instantApply="true"/>
+      <preference id="starui-row-tags"          name="extensions.abh2me.starUI.row.tags"          type="bool" instantApply="true"/>
+      <preference id="starui-row-keyword"       name="extensions.abh2me.starUI.row.keyword"       type="bool" instantApply="true"/>
+      <preference id="starui-row-description"   name="extensions.abh2me.starUI.row.description"   type="bool" instantApply="true"/>
+      <preference id="starui-row-loadInSidebar" name="extensions.abh2me.starUI.row.loadInSidebar" type="bool" instantApply="true"/>
+      <preference id="starui-expand-folderRow"  name="extensions.abh2me.starUI.expand.folderRow"  type="bool" instantApply="true"/>
+      <preference id="starui-expand-tagsRow"    name="extensions.abh2me.starUI.expand.tagsRow"    type="bool" instantApply="true"/>
+      <preference id="starui-misc-tagsinline"   name="extensions.abh2me.misc.tagsInline"          type="bool" instantApply="true"/>
     </preferences>
 
     <vbox flex="1">
@@ -147,16 +147,16 @@
 
   <prefpane id="pane-menu" label="&pane.menu;">
     <preferences>
-      <preference id="bmsmenu-addbmhere"    name="extensions.abhere2.bmsmenu.addbmhere"    type="bool" instantApply="true"/>
-      <preference id="bmsmenu-bmcurpage"    name="extensions.abhere2.bmsmenu.bmcurpage"    type="bool" instantApply="true"/>
-      <preference id="bmsmenu-subscribe"    name="extensions.abhere2.bmsmenu.subscribe"    type="bool" instantApply="true"/>
-      <preference id="bmsmenu-showallbm"    name="extensions.abhere2.bmsmenu.showallbm"    type="bool" instantApply="true"/>
-      <preference id="bmsmenu-viewbmbar"    name="extensions.abhere2.bmsmenu.viewbmbar"    type="bool" instantApply="true"/>
-      <preference id="bmsmenu-bmtoolbar"    name="extensions.abhere2.bmsmenu.bmtoolbar"    type="bool" instantApply="true"/>
-      <preference id="bmsmenu-unsrtmenu"    name="extensions.abhere2.bmsmenu.unsrtmenu"    type="bool" instantApply="true"/>
-      <preference id="folder-middleclick"   name="extensions.abhere2.folder.middleClick"   type="int"  instantApply="true"/>
-      <preference id="folder-insidefolder"  name="extensions.abhere2.folder.insideFolder"  type="bool" instantApply="true"/>
-      <preference id="folder-autotagfolder" name="extensions.abhere2.folder.autoTagFolder" type="bool" instantApply="true"/>
+      <preference id="bmsmenu-addbmhere"    name="extensions.abh2me.bmsmenu.addbmhere"    type="bool" instantApply="true"/>
+      <preference id="bmsmenu-bmcurpage"    name="extensions.abh2me.bmsmenu.bmcurpage"    type="bool" instantApply="true"/>
+      <preference id="bmsmenu-subscribe"    name="extensions.abh2me.bmsmenu.subscribe"    type="bool" instantApply="true"/>
+      <preference id="bmsmenu-showallbm"    name="extensions.abh2me.bmsmenu.showallbm"    type="bool" instantApply="true"/>
+      <preference id="bmsmenu-viewbmbar"    name="extensions.abh2me.bmsmenu.viewbmbar"    type="bool" instantApply="true"/>
+      <preference id="bmsmenu-bmtoolbar"    name="extensions.abh2me.bmsmenu.bmtoolbar"    type="bool" instantApply="true"/>
+      <preference id="bmsmenu-unsrtmenu"    name="extensions.abh2me.bmsmenu.unsrtmenu"    type="bool" instantApply="true"/>
+      <preference id="folder-middleclick"   name="extensions.abh2me.folder.middleClick"   type="int"  instantApply="true"/>
+      <preference id="folder-insidefolder"  name="extensions.abh2me.folder.insideFolder"  type="bool" instantApply="true"/>
+      <preference id="folder-autotagfolder" name="extensions.abh2me.folder.autoTagFolder" type="bool" instantApply="true"/>
     </preferences>
 
     <vbox flex="1">
@@ -202,10 +202,10 @@
 
   <prefpane id="pane-advanced" label="&pane.advanced;">
     <preferences>
-      <preference id="starui-clicking-left"   name="extensions.abhere2.starUI.clicking.left"   type="int" instantApply="true"/>
-      <preference id="starui-clicking-middle" name="extensions.abhere2.starUI.clicking.middle" type="int" instantApply="true"/>
-      <preference id="starui-clicking-right"  name="extensions.abhere2.starUI.clicking.right"  type="int" instantApply="true"/>
-      <preference id="folderid-unsorted"      name="extensions.abhere2.folderId.unsorted"      type="int" instantApply="true"/>
+      <preference id="starui-clicking-left"   name="extensions.abh2me.starUI.clicking.left"   type="int" instantApply="true"/>
+      <preference id="starui-clicking-middle" name="extensions.abh2me.starUI.clicking.middle" type="int" instantApply="true"/>
+      <preference id="starui-clicking-right"  name="extensions.abh2me.starUI.clicking.right"  type="int" instantApply="true"/>
+      <preference id="folderid-unsorted"      name="extensions.abh2me.folderId.unsorted"      type="int" instantApply="true"/>
     </preferences>
 
     <vbox flex="1">
@@ -301,6 +301,6 @@
     </vbox>
   </prefpane>
 
-<script type="application/x-javascript" src="chrome://abhere2/content/prefsDialog.js"/>
+<script type="application/x-javascript" src="chrome://abh2me/content/prefsDialog.js"/>
 
 </prefwindow>

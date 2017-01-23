@@ -1,7 +1,7 @@
 window.addEventListener("load", function() {
 	var bmc = document.getElementById("placesContext");
 	if (bmc) {
-		bmc.addEventListener("popupshowing", window.top.abHere2.onpopupBookmarksContextMenu, false);
-		bmc.addEventListener("popuphiding", window.top.abHere2.oncloseBookmarksContextMenu, false);
+		bmc.addEventListener("popupshowing", window.top.abH2me.onpopupBookmarksContextMenu, false);
+		bmc.addEventListener("popuphiding", window.top.abH2me.oncloseBookmarksContextMenu, false);
 	}
 }, false);

@@ -1,6 +1,6 @@
 Components.utils.import("resource://gre/modules/Preferences.jsm");
 
-var abHere2 = {
+var abH2me = {
 	hookFunc: function(obj, name, matchCode, replaceCode) {
 		try {
 			if (typeof(matchCode) === 'string') {
@@ -19,54 +19,54 @@ var abHere2 = {
 	},
 
 	get defaultInsertionIndex() {
-		return (Preferences.get("extensions.abhere2.misc.insertTop", true) ? 0 : -1);
+		return (Preferences.get("extensions.abh2me.misc.insertTop", true) ? 0 : -1);
 	},
 
 	get isTagsInline() {
-		return Preferences.get("extensions.abhere2.misc.tagsInline", true);
+		return Preferences.get("extensions.abh2me.misc.tagsInline", true);
 	},
 
 	get panelWidth() {
-		return Preferences.get("extensions.abhere2.bmProp.width", 350);
+		return Preferences.get("extensions.abh2me.bmProp.width", 350);
 	},
 	set panelWidth(value) {
-		return Preferences.set("extensions.abhere2.bmProp.width", (value < 0 ? 0 : value));
+		return Preferences.set("extensions.abh2me.bmProp.width", (value < 0 ? 0 : value));
 	},
 
 	get folderTreeHeight() {
-		return Preferences.get("extensions.abhere2.bmProp.height.folderTree", 150);
+		return Preferences.get("extensions.abh2me.bmProp.height.folderTree", 150);
 	},
 	set folderTreeHeight(value) {
-		return Preferences.set("extensions.abhere2.bmProp.height.folderTree", (value < 0 ? 0 : value));
+		return Preferences.set("extensions.abh2me.bmProp.height.folderTree", (value < 0 ? 0 : value));
 	},
 
 	get tagsSelectorHeight() {
-		return Preferences.get("extensions.abhere2.bmProp.height.tagsSelector", 75);
+		return Preferences.get("extensions.abh2me.bmProp.height.tagsSelector", 75);
 	},
 	set tagsSelectorHeight(value) {
-		return Preferences.set("extensions.abhere2.bmProp.height.tagsSelector", (value < 0 ? 0 : value));
+		return Preferences.set("extensions.abh2me.bmProp.height.tagsSelector", (value < 0 ? 0 : value));
 	},
 
 	onresizeDialog: function(event) {
 		var folderTree = document.getElementById("editBMPanel_folderTreeRow");
 		folderTree.height = folderTree.collapsed
-								? abHere2.folderTreeHeight
-								: abHere2.folderTreeHeight = folderTree.boxObject.height;
+								? abH2me.folderTreeHeight
+								: abH2me.folderTreeHeight = folderTree.boxObject.height;
 
 		var tagsSelector = document.getElementById("editBMPanel_tagsSelectorRow");
 		tagsSelector.height = tagsSelector.collapsed
-									? abHere2.tagsSelectorHeight
-									: abHere2.tagsSelectorHeight = tagsSelector.boxObject.height;
+									? abH2me.tagsSelectorHeight
+									: abH2me.tagsSelectorHeight = tagsSelector.boxObject.height;
 	},
 
 	getRowHeight: function(id) {
 		var height = 0;
 		switch (id) {
 		case "editBMPanel_folderTreeRow":
-			height = abHere2.folderTreeHeight;
+			height = abH2me.folderTreeHeight;
 			break;
 		case "editBMPanel_tagsSelectorRow":
-			height = abHere2.tagsSelectorHeight;
+			height = abH2me.tagsSelectorHeight;
 			break;
 		}
 		return height;
@@ -74,11 +74,11 @@ var abHere2 = {
 
 	expandRows: function() {
 		var nameRow = document.getElementById("editBMPanel_nameRow");
-		if (!nameRow.collapsed && Preferences.get("extensions.abhere2.bmProp.expand.folderRow", false)) {
+		if (!nameRow.collapsed && Preferences.get("extensions.abh2me.bmProp.expand.folderRow", false)) {
 			setTimeout(function(){ gEditItemOverlay.toggleFolderTreeVisibility(); }, 0);
 		}
 		var tagsRow = document.getElementById("editBMPanel_tagsRow");
-		if (!tagsRow.collapsed && Preferences.get("extensions.abhere2.bmProp.expand.tagsRow", false)) {
+		if (!tagsRow.collapsed && Preferences.get("extensions.abh2me.bmProp.expand.tagsRow", false)) {
 			setTimeout(function(){ gEditItemOverlay.toggleTagsSelector(); }, 0);
 		}
 	},
@@ -89,18 +89,18 @@ var abHere2 = {
 			var nameRow = document.getElementById("editBMPanel_nameRow");
 			if (nameRow.collapsed) break;
 			var folderTree = document.getElementById("editBMPanel_folderTreeRow");
-			Preferences.set("extensions.abhere2.bmProp.expand.folderRow", !folderTree.collapsed);
+			Preferences.set("extensions.abh2me.bmProp.expand.folderRow", !folderTree.collapsed);
 			break;
 		case "editBMPanel_tagsSelectorExpander":
 			var tagsSelector = document.getElementById("editBMPanel_tagsSelectorRow");
-			Preferences.set("extensions.abhere2.bmProp.expand.tagsRow", !tagsSelector.collapsed);
+			Preferences.set("extensions.abh2me.bmProp.expand.tagsRow", !tagsSelector.collapsed);
 			break;
 		}
 	},
 
 	trySortFolderByName: function(itemId) {
-		var sortByName = PlacesUtils.annotations.itemHasAnnotation(itemId, 'abhere2/sortByName')
-		              && PlacesUtils.annotations.getItemAnnotation(itemId, 'abhere2/sortByName');
+		var sortByName = PlacesUtils.annotations.itemHasAnnotation(itemId, 'abh2me/sortByName')
+		              && PlacesUtils.annotations.getItemAnnotation(itemId, 'abh2me/sortByName');
 		if (sortByName) {
 			var txn = new PlacesSortFolderByNameTransaction(itemId);
 			PlacesUtils.transactionManager.doTransaction(txn);
@@ -120,23 +120,23 @@ gEditItemOverlay.moveItems = function(aItemIds, aNewContainer, aNewIndex) {
 	}
 	return new PlacesAggregatedTransaction("Move items childTxn", transactions);
 }
-abHere2.hookFunc(gEditItemOverlay, "onFolderMenuListCommand",
+abH2me.hookFunc(gEditItemOverlay, "onFolderMenuListCommand",
 	'var txn = new PlacesMoveItemTransaction(this._itemId, container, PlacesUtils.bookmarks.DEFAULT_INDEX);',
-	'var txn = this.moveItems(this._multiEdit ? this._itemIds : [this._itemId], container, abHere2.defaultInsertionIndex);');
+	'var txn = this.moveItems(this._multiEdit ? this._itemIds : [this._itemId], container, abH2me.defaultInsertionIndex);');
 
 
 //*** implement: create the new folder at user's insertionPoint
-abHere2.hookFunc(gEditItemOverlay, "_determineInfo",
+abH2me.hookFunc(gEditItemOverlay, "_determineInfo",
 	/}$/,
 	'this._defaultInsertionPoint = aInfo && aInfo.defaultInsertionPoint; $&');
 
-abHere2.hookFunc(gEditItemOverlay, "newFolder",
+abH2me.hookFunc(gEditItemOverlay, "newFolder",
 	'var txn = new PlacesCreateFolderTransaction(defaultLabel, ip.itemId, ip.index);',
-	'ip.index = (ip.itemId == this._defaultInsertionPoint.itemId) ? this._defaultInsertionPoint.index : abHere2.defaultInsertionIndex; $&');
+	'ip.index = (ip.itemId == this._defaultInsertionPoint.itemId) ? this._defaultInsertionPoint.index : abH2me.defaultInsertionIndex; $&');
 
 
 //*** implement: ensureRowIsVisible when folderTree is expanded
-abHere2.hookFunc(gEditItemOverlay, "toggleFolderTreeVisibility",
+abH2me.hookFunc(gEditItemOverlay, "toggleFolderTreeVisibility",
 	"this._folderTree.focus();",
 	'this._folderTree.boxObject.ensureRowIsVisible(this._folderTree.view.selection.currentIndex);'+
 	'$&');
@@ -182,15 +182,15 @@ BookmarkPropertiesPanel._getItemIdListForAggregateTransactions = function(aggreg
 	return itemIds;
 }
 
-abHere2.hookFunc(BookmarkPropertiesPanel, "_getDialogTitle",
+abH2me.hookFunc(BookmarkPropertiesPanel, "_getDialogTitle",
 	'if (this._itemType == BOOKMARK_ITEM)',
 	'if (this._itemType == BOOKMARK_ITEMS) return this._strings.getString("dialogTitleAddMulti"); $&');
 
-abHere2.hookFunc(BookmarkPropertiesPanel, "_getAcceptLabel",
+abH2me.hookFunc(BookmarkPropertiesPanel, "_getAcceptLabel",
 	'if (this._URIs.length)',
 	'if (this._URIs.length || this._tabInfos)');
 
-abHere2.hookFunc(BookmarkPropertiesPanel, "_determineItemInfo",
+abH2me.hookFunc(BookmarkPropertiesPanel, "_determineItemInfo",
 	'case "bookmark":',
 	'case "bookmarks":'+
 	'this._itemType = BOOKMARK_ITEMS;'+
@@ -199,89 +199,89 @@ abHere2.hookFunc(BookmarkPropertiesPanel, "_determineItemInfo",
 	'this._hiddenRows.push("keyword");'+
 	'this._hiddenRows.push("description");'+
 	'this._hiddenRows.push("loadInSidebar");'+
-	'if (!Preferences.get("extensions.abhere2.starUI.row.tags", true)) this._hiddenRows.push("tags");'+
+	'if (!Preferences.get("extensions.abh2me.starUI.row.tags", true)) this._hiddenRows.push("tags");'+
 	'if ("tabInfoList" in dialogInfo) { this._tabInfos = dialogInfo.tabInfoList; }'+
 	'break;'+
 	'$&');
 
-abHere2.hookFunc(BookmarkPropertiesPanel, "_createNewItem",
+abH2me.hookFunc(BookmarkPropertiesPanel, "_createNewItem",
 	'case BOOKMARK_FOLDER:',
 	'case BOOKMARK_ITEMS:'+
 	'txn = this._getCreateNewBookmarksTransaction(container, index);'+
 	'break;'+
 	'$&');
 
-abHere2.hookFunc(BookmarkPropertiesPanel, "_createNewItem",
+abH2me.hookFunc(BookmarkPropertiesPanel, "_createNewItem",
 	'this._itemId = PlacesUtils.bookmarks.getIdForItemAt(container, index)',
 	'this._itemId = (this._itemType == BOOKMARK_ITEMS ? this._getItemIdListForAggregateTransactions(txn) : $&)');
 
-abHere2.hookFunc(BookmarkPropertiesPanel, "_createNewItem",
+abH2me.hookFunc(BookmarkPropertiesPanel, "_createNewItem",
 	"PlacesUtils.transactionManager.doTransaction(txn);",
-	'$& abHere2.trySortFolderByName(container);');
+	'$& abH2me.trySortFolderByName(container);');
 
 
 //*** implement: create the new folder at user's insertionPoint (pass the insertionPoint to gEditItemOverlay)
-abHere2.hookFunc(BookmarkPropertiesPanel, "_fillAddProperties",
+abH2me.hookFunc(BookmarkPropertiesPanel, "_fillAddProperties",
 	'hiddenRows: this._hiddenRows',
 	'$&, defaultInsertionPoint: this._defaultInsertionPoint');
 
 
 //*** implement: customize folderTree & tagsSelector's height
-abHere2.hookFunc(BookmarkPropertiesPanel, "handleEvent",
+abH2me.hookFunc(BookmarkPropertiesPanel, "handleEvent",
 	'newHeight -= this._elementsHeight[id];',
-	'newHeight -= abHere2.getRowHeight(id);');
+	'newHeight -= abH2me.getRowHeight(id);');
 
-abHere2.hookFunc(BookmarkPropertiesPanel, "handleEvent",
+abH2me.hookFunc(BookmarkPropertiesPanel, "handleEvent",
 	'newHeight += this._elementsHeight[id];',
-	'newHeight += abHere2.getRowHeight(id);');
+	'newHeight += abH2me.getRowHeight(id);');
 
-abHere2.hookFunc(BookmarkPropertiesPanel, "handleEvent",
+abH2me.hookFunc(BookmarkPropertiesPanel, "handleEvent",
 	"window.resizeTo(window.outerWidth, newHeight);",
 	'this._element("folderTreeRow").flex = this._element("tagsSelectorRow").collapsed ? "1" : "0";'+
 	'$&');
 
 
 //*** implement: customize BookmarkPropertiesPanel's width
-abHere2.hookFunc(BookmarkPropertiesPanel, "onDialogLoad",
+abH2me.hookFunc(BookmarkPropertiesPanel, "onDialogLoad",
 	'window.sizeToContent();',
-	'document.documentElement.width = abHere2.panelWidth;'+
+	'document.documentElement.width = abH2me.panelWidth;'+
 	'$&');
 
 
 //*** group the tags in line
-abHere2.hookFunc(BookmarkPropertiesPanel, "onDialogLoad",
+abH2me.hookFunc(BookmarkPropertiesPanel, "onDialogLoad",
 	/}$/,
-	'document.getAnonymousNodes(this._element("tagsSelector"))[1].lastChild.style.display = (abHere2.isTagsInline ? "inline-block" : ""); $&');
+	'document.getAnonymousNodes(this._element("tagsSelector"))[1].lastChild.style.display = (abH2me.isTagsInline ? "inline-block" : ""); $&');
 
 
 //*** expand the folderTree & tagsSelector
-abHere2.hookFunc(BookmarkPropertiesPanel, "onDialogLoad",
+abH2me.hookFunc(BookmarkPropertiesPanel, "onDialogLoad",
 	/}$/,
-	'abHere2.expandRows(); $&');
+	'abH2me.expandRows(); $&');
 
 
 //*** save folderTree & tagsSelector expander's status
-abHere2.hookFunc(BookmarkPropertiesPanel, "onDialogLoad",
+abH2me.hookFunc(BookmarkPropertiesPanel, "onDialogLoad",
 	/}$/,
 	'this._element("foldersExpander").addEventListener("command", this, false);'+
 	'this._element("tagsSelectorExpander").addEventListener("command", this, false);'+
 	'$&');
 
-abHere2.hookFunc(BookmarkPropertiesPanel, "onDialogUnload",
+abH2me.hookFunc(BookmarkPropertiesPanel, "onDialogUnload",
 	/}$/,
 	'this._element("foldersExpander").removeEventListener("command", this, false);'+
 	'this._element("tagsSelectorExpander").removeEventListener("command", this, false);'+
 	'$&');
 
-abHere2.hookFunc(BookmarkPropertiesPanel, "handleEvent",
+abH2me.hookFunc(BookmarkPropertiesPanel, "handleEvent",
 	'case "input":',
 	'case "command":'+
-	'abHere2.saveExpanderStatus(target.id);'+
+	'abH2me.saveExpanderStatus(target.id);'+
 	'break;'+
 	'$&');
 
 
 //*** when bookmarkLink(), use "Add" as accept button's label
-abHere2.hookFunc(BookmarkPropertiesPanel, "_getAcceptLabel",
+abH2me.hookFunc(BookmarkPropertiesPanel, "_getAcceptLabel",
 	'if (this._dummyItem || this._loadInSidebar)',
 	'if (this._dummyItem || this._loadInSidebar || this._uri)');

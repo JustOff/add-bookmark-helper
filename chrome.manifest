@@ -1,29 +1,29 @@
-content abhere2 content/
+content abh2me content/
 
-skin    abhere2 classic/1.0 skin/
+skin    abh2me classic/1.0 skin/
 
-overlay chrome://browser/content/browser.xul chrome://abhere2/content/browserOverlay.xul
-overlay chrome://browser/content/bookmarks/bookmarksPanel.xul chrome://abhere2/content/sidebarOverlay.xul
-overlay chrome://browser/content/places/bookmarkProperties.xul chrome://abhere2/content/editFolderOverlay.xul
-overlay chrome://browser/content/places/bookmarkProperties2.xul chrome://abhere2/content/editPanelOverlay.xul
+overlay chrome://browser/content/browser.xul chrome://abh2me/content/browserOverlay.xul
+overlay chrome://browser/content/bookmarks/bookmarksPanel.xul chrome://abh2me/content/sidebarOverlay.xul
+overlay chrome://browser/content/places/bookmarkProperties.xul chrome://abh2me/content/editFolderOverlay.xul
+overlay chrome://browser/content/places/bookmarkProperties2.xul chrome://abh2me/content/editPanelOverlay.xul
 
-locale  abhere2 cs    locale/cs/
-locale  abhere2 de    locale/de/
-locale  abhere2 el    locale/el/
-locale  abhere2 en-US locale/en-US/
-locale  abhere2 es-ES locale/es-ES/
-locale  abhere2 fr    locale/fr/
-locale  abhere2 he    locale/he/
-locale  abhere2 hu-HU locale/hu-HU/
-locale  abhere2 it    locale/it/
-locale  abhere2 ko-KR locale/ko-KR/
-locale  abhere2 nl    locale/nl/
-locale  abhere2 pl    locale/pl/
-locale  abhere2 pt-BR locale/pt-BR/
-locale  abhere2 pt-PT locale/pt-PT/
-locale  abhere2 ru    locale/ru/
-locale  abhere2 sk-SK locale/sk-SK/
-locale  abhere2 sv-SE locale/sv-SE/
-locale  abhere2 uk    locale/uk/
-locale  abhere2 zh-CN locale/zh-CN/
-locale  abhere2 zh-TW locale/zh-TW/
+locale  abh2me cs    locale/cs/
+locale  abh2me de    locale/de/
+locale  abh2me el    locale/el/
+locale  abh2me en-US locale/en-US/
+locale  abh2me es-ES locale/es-ES/
+locale  abh2me fr    locale/fr/
+locale  abh2me he    locale/he/
+locale  abh2me hu-HU locale/hu-HU/
+locale  abh2me it    locale/it/
+locale  abh2me ko-KR locale/ko-KR/
+locale  abh2me nl    locale/nl/
+locale  abh2me pl    locale/pl/
+locale  abh2me pt-BR locale/pt-BR/
+locale  abh2me pt-PT locale/pt-PT/
+locale  abh2me ru    locale/ru/
+locale  abh2me sk-SK locale/sk-SK/
+locale  abh2me sv-SE locale/sv-SE/
+locale  abh2me uk    locale/uk/
+locale  abh2me zh-CN locale/zh-CN/
+locale  abh2me zh-TW locale/zh-TW/

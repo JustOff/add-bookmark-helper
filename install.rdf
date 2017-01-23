@@ -10,7 +10,7 @@
     <em:contributor>yuoo2k</em:contributor>
     <em:homepageURL>https://github.com/JustOff/add-bookmark-here-2-me/</em:homepageURL>
     <em:updateURL>https://raw.githubusercontent.com/JustOff/add-bookmark-here-2-me/gh-pages/update.rdf</em:updateURL>
-    <em:optionsURL>chrome://abhere2/content/prefsDialog.xul</em:optionsURL>
+    <em:optionsURL>chrome://abh2me/content/prefsDialog.xul</em:optionsURL>
     <em:targetApplication>
       <Description>
         <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>

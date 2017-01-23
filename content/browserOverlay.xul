@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<?xml-stylesheet href="chrome://abhere2/skin/abhere2.css" type="text/css"?>
+<?xml-stylesheet href="chrome://abh2me/skin/abh2me.css" type="text/css"?>
 
 <overlay id="browserOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
-<script type="application/x-javascript" src="chrome://abhere2/content/browserOverlay.js"/>
+<script type="application/x-javascript" src="chrome://abh2me/content/browserOverlay.js"/>
 
 <menuitem id="placesContext_sortBy:name" type="checkbox"/>
 

@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<?xml-stylesheet href="chrome://abhere2/skin/abhere2.css" type="text/css"?>
+<?xml-stylesheet href="chrome://abh2me/skin/abh2me.css" type="text/css"?>
 
 <overlay id="editPanelOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
-<dialog id="bookmarkproperties" onresize="abHere2.onresizeDialog();"/>
+<dialog id="bookmarkproperties" onresize="abH2me.onresizeDialog();"/>
 	<vbox id="editBookmarkPanelContent" flex="1"/>
 		<grid id="editBookmarkPanelGrid" flex="1"/>
 			<row id="editBMPanel_folderTreeRow" flex="1" align="stretch"/>
 				<tree id="editBMPanel_folderTree" flex="1"/>
 			<row id="editBMPanel_tagsSelectorRow" flex="1" align="stretch"/>
 
-<script type="application/x-javascript" src="chrome://abhere2/content/editPanelOverlay.js"/>
+<script type="application/x-javascript" src="chrome://abh2me/content/editPanelOverlay.js"/>
 
 </overlay>

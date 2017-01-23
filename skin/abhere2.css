@@ -1,7 +1,7 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 .abhere-menuitem {
-  list-style-image: url("chrome://abhere2/skin/abhere16x16.png");
+  list-style-image: url("chrome://abh2me/skin/abhere16x16.png");
 }
 
 #editBMPanel_folderTree {
@@ -15,7 +15,7 @@
 }
 
 listrows {
-  -moz-binding: url("chrome://abhere2/content/listbox.xml#listrows");
+  -moz-binding: url("chrome://abh2me/content/listbox.xml#listrows");
 }
 
 tree[disabled] {
@@ -25,14 +25,14 @@ tree[disabled] {
 }
 
 radio[pane="pane-main"] {
-  list-style-image: url("chrome://abhere2/skin/abhere32x32.png");
+  list-style-image: url("chrome://abh2me/skin/abhere32x32.png");
 }
 radio[pane="pane-menu"] {
-  list-style-image: url("chrome://abhere2/skin/menu.png");
+  list-style-image: url("chrome://abh2me/skin/menu.png");
 }
 radio[pane="pane-panel"] {
-  list-style-image: url("chrome://abhere2/skin/panel.png");
+  list-style-image: url("chrome://abh2me/skin/panel.png");
 }
 radio[pane="pane-advanced"] {
-  list-style-image: url("chrome://abhere2/skin/advanced.png");
+  list-style-image: url("chrome://abh2me/skin/advanced.png");
 }
