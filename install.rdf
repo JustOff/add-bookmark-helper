@@ -2,24 +2,24 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:install-manifest">
-    <em:id>abhere2-pm@moztw.org</em:id>
-    <em:version>27.0.20161104</em:version>
+    <em:id>abh2me@Off.JustOff</em:id>
+    <em:version>1.0.1</em:version>
 
     <em:targetApplication>
       <Description>
         <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
-        <em:minVersion>27.0.0b1</em:minVersion>
+        <em:minVersion>27.0</em:minVersion>
         <em:maxVersion>*</em:maxVersion>
       </Description>
     </em:targetApplication>
 
-    <em:name>Add Bookmark Here ² (Pale Moon 27 fix)</em:name>
+    <em:name>Add Bookmark Here ² (Moon Edition)</em:name>
     <em:description>Add a menuitem "Add Bookmark Here..." to Bookmarks Menu.</em:description>
-    <em:creator>yuoo2k</em:creator>
-	<em:contributor>Off JustOff &lt;Off.Just.Off@gmail.com&gt;</em:contributor>
-    <em:homepageURL>https://addons.mozilla.org/firefox/addon/3880</em:homepageURL>
+    <em:creator>Off JustOff &lt;Off.Just.Off@gmail.com&gt;</em:creator>
+	<em:contributor>yuoo2k</em:contributor>
+    <em:homepageURL>https://github.com/JustOff/add-bookmark-here-2-me/</em:homepageURL>
+	<em:updateURL>https://raw.githubusercontent.com/JustOff/add-bookmark-here-2-me/gh-pages/update.rdf</em:updateURL>
     <em:optionsURL>chrome://abhere2/content/prefsDialog.xul</em:optionsURL>
-    <em:iconURL>chrome://abhere2/skin/abhere32x32.png</em:iconURL>
     <em:type>2</em:type>
 
   </Description>
