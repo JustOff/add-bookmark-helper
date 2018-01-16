@@ -1,4 +1,4 @@
-﻿pref("extensions.abh2me@moztw.org.description", "chrome://abh2me/locale/abh2me.properties");
+﻿pref("extensions.abh2me@Off.JustOff.description", "chrome://abh2me/locale/abh2me.properties");
 
 pref("extensions.abh2me.position.abhere", 1);
 pref("extensions.abh2me.position.optabs", 2);
