@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Параметри Add Bookmark Here ²">
+<!ENTITY dialog.title "Параметри Add Bookmark Helper">
 <!ENTITY pane.main "Головні">
 <!ENTITY pane.panel "Панель закладок">
 <!ENTITY pane.menu "Меню закладок">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "Додавати закладки у теку &quot;Не впорядковані закладки&quot;">
 <!ENTITY starBtn.clicking.option.singleClick "Показувати діалог після одного клацання">
 <!ENTITY starBtn.clicking.option.openLibrary "Впорядкування закладок...">
-<!ENTITY starBtn.clicking.option.prefsDialog "Відкрити параметри Add Bookmark Here ²">
+<!ENTITY starBtn.clicking.option.prefsDialog "Відкрити параметри Add Bookmark Helper">
 <!ENTITY folderUnsorted.group "Настройка теки «Не впорядковані закладки»">
 <!ENTITY misc.group "Інше">
 <!ENTITY misc.insertTop "Вставляти закладки у меню зверху">

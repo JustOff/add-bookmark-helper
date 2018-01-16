@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Add Bookmark Here ² - beállítások">
+<!ENTITY dialog.title "Add Bookmark Helper - beállítások">
 <!ENTITY pane.main "Általános">
 <!ENTITY pane.panel "Panel">
 <!ENTITY pane.menu "Menü">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "Hozzáadás a nem rendezett könyvjelzők mappájába">
 <!ENTITY starBtn.clicking.option.singleClick "Egy kattintás a csillagra megnyitja a párbeszédablakot">
 <!ENTITY starBtn.clicking.option.openLibrary "Programkönyvtár megnyitása a könyvjelzők kezeléséhez...">
-<!ENTITY starBtn.clicking.option.prefsDialog "Add Bookmark Here ² Beállítások...">
+<!ENTITY starBtn.clicking.option.prefsDialog "Add Bookmark Helper Beállítások...">
 <!ENTITY folderUnsorted.group "A nem rendezett könyvjelzők mappa testreszabása">
 <!ENTITY misc.group "Vegyes">
 <!ENTITY misc.insertTop "Könyvjelzők beillesztése a menü tetejére">

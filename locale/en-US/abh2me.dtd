@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Add Bookmark Here ² Options">
+<!ENTITY dialog.title "Add Bookmark Helper Options">
 <!ENTITY pane.main "Main">
 <!ENTITY pane.panel "Panel">
 <!ENTITY pane.menu "Menu">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "Add to Unsorted Bookmarks Folder">
 <!ENTITY starBtn.clicking.option.singleClick "Show the Dialog with a Single Click">
 <!ENTITY starBtn.clicking.option.openLibrary "Open Library to Organize Bookmarks...">
-<!ENTITY starBtn.clicking.option.prefsDialog "Open Add Bookmark Here ² Options...">
+<!ENTITY starBtn.clicking.option.prefsDialog "Open Add Bookmark Helper Options...">
 <!ENTITY folderUnsorted.group "Customize the Unsorted Bookmarks Folder">
 <!ENTITY misc.group "Miscellaneous">
 <!ENTITY misc.insertTop "Insert Bookmarks to the Top of Menu">

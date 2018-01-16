@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Настройки Add Bookmark Here ²">
+<!ENTITY dialog.title "Настройки Add Bookmark Helper">
 <!ENTITY pane.main "Главные">
 <!ENTITY pane.panel "Панель закладок">
 <!ENTITY pane.menu "Меню закладок">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "Добавлять закладки в папку «Неподшитые закладки»">
 <!ENTITY starBtn.clicking.option.singleClick "Показывать диалог по одному клику">
 <!ENTITY starBtn.clicking.option.openLibrary "Управление закладками...">
-<!ENTITY starBtn.clicking.option.prefsDialog "Открыть настройки Add Bookmark Here ²...">
+<!ENTITY starBtn.clicking.option.prefsDialog "Открыть настройки Add Bookmark Helper...">
 <!ENTITY folderUnsorted.group "Настройка папки «Неподшитые закладки»">
 <!ENTITY misc.group "Прочее">
 <!ENTITY misc.insertTop "Добавлять закладки наверх списка">

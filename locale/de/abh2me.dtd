@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Add Bookmark Here ² - Einstellungen">
+<!ENTITY dialog.title "Add Bookmark Helper - Einstellungen">
 <!ENTITY pane.main "Allgemein">
 <!ENTITY pane.panel "Panel">
 <!ENTITY pane.menu "Menü">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "Lesezeichen unter „Unsortierte Lesezeichen“ ablegen">
 <!ENTITY starBtn.clicking.option.singleClick "Dialog durch einmaliges Klicken anzeigen">
 <!ENTITY starBtn.clicking.option.openLibrary "Bibliothek zum Verwalten der Lesezeichen öffnen…">
-<!ENTITY starBtn.clicking.option.prefsDialog "„Add Bookmark Here ²“-Einstellungen öffnen…">
+<!ENTITY starBtn.clicking.option.prefsDialog "„Add Bookmark Helper“-Einstellungen öffnen…">
 <!ENTITY folderUnsorted.group "Den Ordner „Unsortierte Lesezeichen“ anpassen">
 <!ENTITY misc.group "Verschiedenes">
 <!ENTITY misc.insertTop "Neue Lesezeichen am Anfang einsortieren">

@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Opções de Add Bookmark Here">
+<!ENTITY dialog.title "Opções de Add Bookmark Helper">
 <!ENTITY pane.main "Principal">
 <!ENTITY pane.panel "Painel">
 <!ENTITY pane.menu "Menu">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "Favoritos para pasta de Favoritos não ordenados">
 <!ENTITY starBtn.clicking.option.singleClick "Clique Único na Estrela dos Favoritos para mostrar diálogo">
 <!ENTITY starBtn.clicking.option.openLibrary "Abrir biblioteca para organizar Favoritos...">
-<!ENTITY starBtn.clicking.option.prefsDialog "Abrir opções Add Bookmark Here ²">
+<!ENTITY starBtn.clicking.option.prefsDialog "Abrir opções Add Bookmark Helper">
 <!ENTITY folderUnsorted.group "Customizar a pasta de favoritos não ordenados">
 <!ENTITY misc.group "Miscelânea">
 <!ENTITY misc.insertTop "Inserir Favoritos no Topo do Menu">

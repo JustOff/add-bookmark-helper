@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "אפשרויות Add Bookmark Here ²">
+<!ENTITY dialog.title "אפשרויות Add Bookmark Helper">
 <!ENTITY pane.main "ראשי">
 <!ENTITY pane.panel "לוח">
 <!ENTITY pane.menu "תפריט">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "הוספת תיקייה לסימניות שלא מוינו">
 <!ENTITY starBtn.clicking.option.singleClick "הצגת תיבת הדו שיח בלחיצה בודדת">
 <!ENTITY starBtn.clicking.option.openLibrary "פתיחת ספרייה לארגון הסימניות...">
-<!ENTITY starBtn.clicking.option.prefsDialog "פתיחת אפשרויות Add Bookmark Here ²...">
+<!ENTITY starBtn.clicking.option.prefsDialog "פתיחת אפשרויות Add Bookmark Helper...">
 <!ENTITY folderUnsorted.group "התאמה אישית של תיקיית הסימניות הלא ממוינות">
 <!ENTITY misc.group "שונות">
 <!ENTITY misc.insertTop "הכנסת סימניות לראש התפריט">

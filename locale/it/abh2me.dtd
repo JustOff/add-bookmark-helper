@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Impostazioni di Add Bookmark Here ²">
+<!ENTITY dialog.title "Impostazioni di Add Bookmark Helper">
 <!ENTITY pane.main "Generali">
 <!ENTITY pane.panel "Finestra di dialogo">
 <!ENTITY pane.menu "Menu">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "aggiungi il segnalibro nella cartella dei non catalogati">
 <!ENTITY starBtn.clicking.option.singleClick "apri la finestra di dialogo con singolo clic">
 <!ENTITY starBtn.clicking.option.openLibrary "apri la libreria per gestire i segnalibri">
-<!ENTITY starBtn.clicking.option.prefsDialog "apri la finestra delle impostazioni di Add Bookmark Here ²">
+<!ENTITY starBtn.clicking.option.prefsDialog "apri la finestra delle impostazioni di Add Bookmark Helper">
 <!ENTITY folderUnsorted.group "Personalizza la cartella dei segnalibri non catalogati">
 <!ENTITY misc.group "Varie">
 <!ENTITY misc.insertTop "Aggiungi i segnalibri sopra a quelli presenti nella cartella">

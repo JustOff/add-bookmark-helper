@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Nastavenia Add Bookmark Here ²">
+<!ENTITY dialog.title "Nastavenia Add Bookmark Helper">
 <!ENTITY pane.main "Hlavné">
 <!ENTITY pane.panel "Panel">
 <!ENTITY pane.menu "Ponuka">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "Záložka na priečinok Nezaradené záložky">
 <!ENTITY starBtn.clicking.option.singleClick "Po jednom kliknutí na ikonu hviezdy zobraziť dialógové okno">
 <!ENTITY starBtn.clicking.option.openLibrary "Otvoriť archív na správu záložiek...">
-<!ENTITY starBtn.clicking.option.prefsDialog "Otvoriť okno nastavení rozšírenia Add Bookmark Here ²">
+<!ENTITY starBtn.clicking.option.prefsDialog "Otvoriť okno nastavení rozšírenia Add Bookmark Helper">
 <!ENTITY folderUnsorted.group "Prispôsobiť priečinok Nezaradené záložky">
 <!ENTITY misc.group "Rôzne">
 <!ENTITY misc.insertTop "Vložiť Záložky navrch ponuky">

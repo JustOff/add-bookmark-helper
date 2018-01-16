@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Add Bookmarks Here² opties">
+<!ENTITY dialog.title "Add Bookmark Helper opties">
 <!ENTITY pane.main "Algemeen">
 <!ENTITY pane.panel "Uiterlijk">
 <!ENTITY pane.menu "Menu">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "Als Bladwijzer opslaan in de map Ongesorteerde bladwijzers">
 <!ENTITY starBtn.clicking.option.singleClick "Enkel-klikken op de Bladwijzer Ster om gegevens te openen">
 <!ENTITY starBtn.clicking.option.openLibrary "Bibliotheek openen om bladwijzers te beheren…">
-<!ENTITY starBtn.clicking.option.prefsDialog "Add Bookmark Here² Opties openen…">
+<!ENTITY starBtn.clicking.option.prefsDialog "Add Bookmark Helper Opties openen…">
 <!ENTITY folderUnsorted.group "De map Ongesorteerde bladwijzers aanpassen">
 <!ENTITY misc.group "Diversen">
 <!ENTITY misc.insertTop "Bladwijzers bovenaan het menu toevoegen">

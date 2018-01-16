@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Options d\'Add Bookmark Here ²">
+<!ENTITY dialog.title "Options d\'Add Bookmark Helper">
 <!ENTITY pane.main "Général">
 <!ENTITY pane.panel "Panneau">
 <!ENTITY pane.menu "Menu">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "Marquer dans le dossier des marque-pages non triés">
 <!ENTITY starBtn.clicking.option.singleClick "Cliquez sur l\'étoile pour afficher le dialogue">
 <!ENTITY starBtn.clicking.option.openLibrary "Ouvrir la bibliothèque pour organiser les marque-pages...">
-<!ENTITY starBtn.clicking.option.prefsDialog "Ouvrir les options d\'Add Bookmark Here ²...">
+<!ENTITY starBtn.clicking.option.prefsDialog "Ouvrir les options d\'Add Bookmark Helper...">
 <!ENTITY folderUnsorted.group "Personnaliser le dossier des marque-pages non triés">
 <!ENTITY misc.group "Divers">
 <!ENTITY misc.insertTop "Insérer les marque-pages en haut du menu">

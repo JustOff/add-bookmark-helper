@@ -4,12 +4,11 @@
     <em:id>abh2me@Off.JustOff</em:id>
     <em:version>1.0.1</em:version>
     <em:type>2</em:type>
-    <em:name>Add Bookmark Here ² (Moon Edition)</em:name>
+    <em:name>Add Bookmark Helper</em:name>
     <em:description>Add a menuitem "Add Bookmark Here..." to Bookmarks Menu.</em:description>
     <em:creator>Off JustOff &lt;Off.Just.Off@gmail.com&gt;</em:creator>
     <em:contributor>yuoo2k</em:contributor>
-    <em:homepageURL>https://github.com/JustOff/add-bookmark-here-2-me/</em:homepageURL>
-    <em:updateURL>https://raw.githubusercontent.com/JustOff/add-bookmark-here-2-me/gh-pages/update.rdf</em:updateURL>
+    <em:homepageURL>https://github.com/JustOff/add-bookmark-helper/</em:homepageURL>
     <em:optionsURL>chrome://abh2me/content/prefsDialog.xul</em:optionsURL>
     <em:targetApplication>
       <Description>

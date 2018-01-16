@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Add Bookmark Here ² - Opciones">
+<!ENTITY dialog.title "Add Bookmark Helper - Opciones">
 <!ENTITY pane.main "Principal">
 <!ENTITY pane.panel "Panel">
 <!ENTITY pane.menu "Menú">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "Añadir a la carpeta de marcadores sin clasificar">
 <!ENTITY starBtn.clicking.option.singleClick "Hacer click en la estrella de marcadores para mostrar la ventana">
 <!ENTITY starBtn.clicking.option.openLibrary "Abrir el catálogo para organizar los marcadores...">
-<!ENTITY starBtn.clicking.option.prefsDialog "Abrir las opciones de Add Bookmark Here ²...">
+<!ENTITY starBtn.clicking.option.prefsDialog "Abrir las opciones de Add Bookmark Helper...">
 <!ENTITY folderUnsorted.group "Personalizar la carpeta de marcadores sin clasificar">
 <!ENTITY misc.group "Varios">
 <!ENTITY misc.insertTop "Insertar los marcadores al inicio del menú">

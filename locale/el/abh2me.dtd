@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Επιλογές του Add Bookmark Here ²">
+<!ENTITY dialog.title "Επιλογές του Add Bookmark Helper">
 <!ENTITY pane.main "Βασικό">
 <!ENTITY pane.panel "Ταμπλό">
 <!ENTITY pane.menu "Μενού">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "Προσθήκη στον φάκελο των αταξινόμητων σελιδοδεικτών">
 <!ENTITY starBtn.clicking.option.singleClick "Κλικ στον αστερίσκο σελιδοδεικτών για εμφάνιση του διαλόγου">
 <!ENTITY starBtn.clicking.option.openLibrary "Άνοιγμα βιβλιοθήκης για οργάνωση σελιδοδεικτών...">
-<!ENTITY starBtn.clicking.option.prefsDialog "Άνοιγμα επιλογών του Add Bookmark Here ²...">
+<!ENTITY starBtn.clicking.option.prefsDialog "Άνοιγμα επιλογών του Add Bookmark Helper...">
 <!ENTITY folderUnsorted.group "Παραμετροποίηση του φακέλου αταξινόμητων σελιδοδεικτών">
 <!ENTITY misc.group "Διάφορα">
 <!ENTITY misc.insertTop "Προσθήκη νέων σελιδοδεικτών στην κορυφή του μενού">

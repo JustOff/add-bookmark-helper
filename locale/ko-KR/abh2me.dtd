@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Add Bookmark Here ² 설정">
+<!ENTITY dialog.title "Add Bookmark Helper 설정">
 <!ENTITY pane.main "기본">
 <!ENTITY pane.panel "패널">
 <!ENTITY pane.menu "메뉴">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "미분류 북마크 폴더에 추가">
 <!ENTITY starBtn.clicking.option.singleClick "한 번 클릭으로 편집창 열기">
 <!ENTITY starBtn.clicking.option.openLibrary "북마크 관리창 열기">
-<!ENTITY starBtn.clicking.option.prefsDialog "Add Bookmark Here ² 설정창 열기">
+<!ENTITY starBtn.clicking.option.prefsDialog "Add Bookmark Helper 설정창 열기">
 <!ENTITY folderUnsorted.group "미분류 북마크 사용자 지정">
 <!ENTITY misc.group "기타">
 <!ENTITY misc.insertTop "메뉴 상단으로 북마크 삽입">

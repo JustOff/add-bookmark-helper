@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Add Bookmark Here ² 选项">
+<!ENTITY dialog.title "Add Bookmark Helper 选项">
 <!ENTITY pane.main "主要">
 <!ENTITY pane.panel "面板">
 <!ENTITY pane.menu "菜单">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "将书签添加到未分类书签文件夹">
 <!ENTITY starBtn.clicking.option.singleClick "单击书签星标显示对话框">
 <!ENTITY starBtn.clicking.option.openLibrary "打开我的足迹来管理书签...">
-<!ENTITY starBtn.clicking.option.prefsDialog "打开 Add Bookmark Here ² 选项...">
+<!ENTITY starBtn.clicking.option.prefsDialog "打开 Add Bookmark Helper 选项...">
 <!ENTITY folderUnsorted.group "定制未排序书签的文件夹">
 <!ENTITY misc.group "杂项">
 <!ENTITY misc.insertTop "将书签添加到菜单顶部">

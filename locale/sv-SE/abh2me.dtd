@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Inställningar för Add Bookmark Here ²">
+<!ENTITY dialog.title "Inställningar för Add Bookmark Helper">
 <!ENTITY pane.main "Allmänt">
 <!ENTITY pane.panel "Panel">
 <!ENTITY pane.menu "Meny">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "Lägg till i mappen Osorterade bokmärken">
 <!ENTITY starBtn.clicking.option.singleClick "Visa dialogen vid enkelklick">
 <!ENTITY starBtn.clicking.option.openLibrary "Öppna Biblioteket för att ordna bokmärken…">
-<!ENTITY starBtn.clicking.option.prefsDialog "Öppna inställningarna för ABH ²…">
+<!ENTITY starBtn.clicking.option.prefsDialog "Öppna inställningarna för Add Bookmark Helper…">
 <!ENTITY folderUnsorted.group "Anpassa mappen Osorterade bokmärken">
 <!ENTITY misc.group "Övrigt">
 <!ENTITY misc.insertTop "Infoga nya bokmärken överst i menyn">

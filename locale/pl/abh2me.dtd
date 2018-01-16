@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Add Bookmark Here ² - opcje">
+<!ENTITY dialog.title "Add Bookmark Helper - opcje">
 <!ENTITY pane.main "Ogólne">
 <!ENTITY pane.panel "Panel">
 <!ENTITY pane.menu "Menu">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "dodaje zakładkę do folderu &quot;Unsorted Bookmarks&quot;">
 <!ENTITY starBtn.clicking.option.singleClick "wyświetla okno dodawania zakładki po pojedynczym kliknięciu">
 <!ENTITY starBtn.clicking.option.openLibrary "otwiera bibliotekę, aby zarządzać zakładkami...">
-<!ENTITY starBtn.clicking.option.prefsDialog "otwiera opcje Add Bookmark Here ²">
+<!ENTITY starBtn.clicking.option.prefsDialog "otwiera opcje Add Bookmark Helper">
 <!ENTITY folderUnsorted.group "Wybierz własny folder dla nieprzypisanych zakładek">
 <!ENTITY misc.group "Rozmaite">
 <!ENTITY misc.insertTop "Dodawaj zakładki na szczycie menu">

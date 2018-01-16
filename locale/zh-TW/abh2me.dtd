@@ -1,4 +1,4 @@
-<!ENTITY dialog.title "Add Bookmark Here ² 選項">
+<!ENTITY dialog.title "Add Bookmark Helper 選項">
 <!ENTITY pane.main "主要">
 <!ENTITY pane.panel "面板">
 <!ENTITY pane.menu "選單">
@@ -50,7 +50,7 @@
 <!ENTITY starBtn.clicking.option.unsortedFolder "加入至未排序書籤資料夾">
 <!ENTITY starBtn.clicking.option.singleClick "首次點擊星號時即顯示編輯窗">
 <!ENTITY starBtn.clicking.option.openLibrary "開啟收藏庫以管理書籤...">
-<!ENTITY starBtn.clicking.option.prefsDialog "顯示 Add Bookmark Here ² 選項...">
+<!ENTITY starBtn.clicking.option.prefsDialog "顯示 Add Bookmark Helper 選項...">
 <!ENTITY folderUnsorted.group "自訂未排序書籤資料夾的位置">
 <!ENTITY misc.group "其他">
 <!ENTITY misc.insertTop "由書籤選單頂端加入書籤">
