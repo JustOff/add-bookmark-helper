@@ -744,7 +744,7 @@ var abH2me = {
 		//*** implement folderId.livemark feature
 		//decide folderId when user add a livemark
 		abH2me.hookFunc(PlacesCommandHook, "addLiveBookmark",
-			"var toolbarIP = new InsertionPoint(PlacesUtils.toolbarFolderId, -1);",
+			"let toolbarIP = new InsertionPoint(PlacesUtils.toolbarFolderId, -1);",
 			"var aItemId = abH2me.prefLivemarkFolderId; var toolbarIP = new InsertionPoint(aItemId, abH2me.isInsertTop ? 0 : -1);");
 
 		//remember last selected folder when user click [Done] to add a livemark
