@@ -5,7 +5,6 @@ skin    abh2me classic/1.0 skin/
 overlay chrome://browser/content/browser.xul chrome://abh2me/content/browserOverlay.xul
 overlay chrome://browser/content/bookmarks/bookmarksPanel.xul chrome://abh2me/content/sidebarOverlay.xul
 overlay chrome://browser/content/places/bookmarkProperties.xul chrome://abh2me/content/editFolderOverlay.xul
-overlay chrome://browser/content/places/bookmarkProperties2.xul chrome://abh2me/content/editPanelOverlay.xul
 
 locale  abh2me cs    locale/cs/
 locale  abh2me de    locale/de/
