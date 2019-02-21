@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "Neue Lesezeichen am Anfang einsortieren">
 <!ENTITY misc.showIconic "Symbol neben dem Menüpunkt „Lesezeichen für diese Seite hier hinzufügen…“ anzeigen">
 <!ENTITY misc.ignorePinned "Angepinnte Tabs bei „Lesezeichen für alle Tabs hinzufügen…“ ignorieren">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "将书签添加到菜单顶部">
 <!ENTITY misc.showIconic "显示 [添加书签到此...] 菜单图标">
 <!ENTITY misc.ignorePinned "将所有标签页加为书签时跳过固话标签页">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

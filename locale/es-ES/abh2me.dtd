@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "Insertar los marcadores al inicio del menú">
 <!ENTITY misc.showIconic "Mostrar icono en el menú [Añadir marcador aquí...]">
 <!ENTITY misc.ignorePinned "Ignorar las pestañas fijas con [Añadir a marcadores todas las pestañas...]">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

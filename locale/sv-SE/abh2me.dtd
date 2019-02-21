@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "Infoga nya bokmärken överst i menyn">
 <!ENTITY misc.showIconic "Visa ikonen för menyobjektet [Lägg till bokmärke här…]">
 <!ENTITY misc.ignorePinned "Ignorera fastnålade flikar när [Bokmärke för alla flikar…] används">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

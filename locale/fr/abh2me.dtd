@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "Insérer les marque-pages en haut du menu">
 <!ENTITY misc.showIconic "Afficher une icône d\'élément de menu [Ajouter un marque-page ici...]">
 <!ENTITY misc.ignorePinned "Ignorer les onglets épinglés en utilisant [Marquer tous les onglets...]">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

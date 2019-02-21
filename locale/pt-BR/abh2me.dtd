@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "Inserir Favoritos no Topo do Menu">
 <!ENTITY misc.showIconic "Mostrar [Adicionar Favoritos Aqui...] como ícone no item de menu">
 <!ENTITY misc.ignorePinned "Ignorar Abas Fixadas quando [Adicionar Todas as Abas...]">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

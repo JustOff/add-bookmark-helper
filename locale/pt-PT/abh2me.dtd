@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "Inserir marcadores ao topo do menu">
 <!ENTITY misc.showIconic "Mostrar [Adicionar marcador aqui...] ícone do item do menu">
 <!ENTITY misc.ignorePinned "Ignorar separadores quando [Adicionar todos separadores aos marcadores...]">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

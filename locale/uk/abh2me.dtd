@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "Вставляти закладки у меню зверху">
 <!ENTITY misc.showIconic "Показувати [Додати закладку сюди...] у меню">
 <!ENTITY misc.ignorePinned "Ігнорувати закладені вкладки при [Закласти всі вкладки...]">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

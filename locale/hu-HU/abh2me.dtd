@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "Könyvjelzők beillesztése a menü tetejére">
 <!ENTITY misc.showIconic "[Könyvjelző hozzáadása..] menüpont ikonjának megjelenítése">
 <!ENTITY misc.ignorePinned "Rögzített lapok mellőzése, ha [Minden lap egy könyvjelzőbe...]">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

@@ -29,6 +29,10 @@ var abH2me = {
 		return Preferences.get("extensions.abh2me.misc.tagsInline", true);
 	},
 
+	get isDuplicateAllowed() {
+		return Preferences.get("extensions.abh2me.misc.duplicateAllowed", false);
+	},
+
 	get isTagsRowExpand() {
 		return Preferences.get("extensions.abh2me.starUI.expand.tagsRow", true);
 	},
@@ -202,7 +206,7 @@ var abH2me = {
 		var ip = abH2me.getInsertionPointDetails(target);
 		var aNode = ip.node;
 		var aIndex = ip.index;
-		var aShowEditUI = ip.anchor;
+		var aAnchor = ip.anchor;
 		var aItemId = PlacesUtils.getConcreteItemId(ip.node);
 
 		// close all popup menus
@@ -219,7 +223,17 @@ var abH2me = {
 			aIndex = (abH2me.isInsertTop ? 0 : -1);
 		}
 
+		// check if url is already bookmarked
 		var aBrowser = getBrowser().selectedBrowser;
+		var isBookmarked = (PlacesUtils.getMostRecentBookmarkForURI(aBrowser.currentURI) != -1);
+		// if duplicate bookmark is allowed, force to unset isBookmarked flag
+		if (abH2me.isDuplicateAllowed) { isBookmarked = false; }
+
+		// keep insert position
+		abH2me.aIndex = aIndex;
+		abH2me.aAnchor = aAnchor;
+		abH2me.aItemId = aItemId;
+		abH2me.isBookmarked = isBookmarked;
 
 		// ready to implement the clicking feature
 		var button = (event.button ? event.button : 0);
@@ -228,23 +242,15 @@ var abH2me = {
 		             Preferences.get("extensions.abh2me.folder.middleClick", 0) - 1;
 		switch(action) {
 		case 0: // show EditBookmarkUI
-			if (aTags.length) {
-				StarUI.beginBatch();
-				PlacesCommandHook.bookmarkPage(aBrowser, aItemId, aShowEditUI, aIndex);
-				abH2me.tagURIs([aBrowser.currentURI], aTags);
-			}
-			PlacesCommandHook.bookmarkPage(aBrowser, aItemId, aShowEditUI, aIndex);
+			abH2me.isDupBmkAllowed = abH2me.isDuplicateAllowed;
+			PlacesCommandHook.bookmarkPage(aBrowser, aItemId, true, aIndex);
+			if (aTags.length) abH2me.tagURIs([aBrowser.currentURI], aTags);
 			break;
 		case 1: // without EditBookmarkUI
-			var isBookmarked = (PlacesUtils.getMostRecentBookmarkForURI(aBrowser.currentURI) != -1);
-			if (isBookmarked) {
-				if (aTags.length) abH2me.tagURIs([aBrowser.currentURI], aTags);
-				else PlacesCommandHook.bookmarkPage(aBrowser, aItemId, true, aIndex);
-			} else {
-				PlacesCommandHook.bookmarkPage(aBrowser, aItemId, false, aIndex);
-				if (aTags.length) abH2me.tagURIs([aBrowser.currentURI], aTags);
-				else abH2me.saveBookmarkFolderId(aItemId);
-			}
+			abH2me.isDupBmkAllowed = abH2me.isDuplicateAllowed;
+			PlacesCommandHook.bookmarkPage(aBrowser, aItemId, isBookmarked, aIndex);
+			if (aTags.length) abH2me.tagURIs([aBrowser.currentURI], aTags);
+			if (PlacesUtils.nodeIsFolder(aNode) && !isBookmarked) abH2me.saveBookmarkFolderId(aItemId);
 			break;
 		case 2: // show AddMultiBookmarkUI
 			var aTabInfoList = abH2me.getUniqueTabInfo(aTags);
@@ -260,6 +266,13 @@ var abH2me = {
 			break;
 		}
 		event.preventDefault();
+
+		// reset insert position
+		delete abH2me.aIndex;
+		delete abH2me.aAnchor;
+		delete abH2me.aItemId;
+		delete abH2me.isBookmarked;
+		delete abH2me.isDupBmkAllowed;
 	},
 
 	handleMiddleClickFolder: function(event) {
@@ -658,6 +671,23 @@ var abH2me = {
 		}
 	},
 
+	bookmarkLink: function() {
+		let anchor = this.target;
+		let uri = Services.io.newURI(this.linkURL, null, null);
+		let itemId = PlacesUtils.getMostRecentBookmarkForURI(uri);
+		if (itemId == -1) {
+			StarUI.beginBatch();
+			let parent = abH2me.prefBookmarkFolderId;
+			let index = (abH2me.isInsertTop ? 0 : -1);
+			let title = this.linkTextStr;
+			let txn = new PlacesCreateBookmarkTransaction(uri, parent, index, title);
+			PlacesUtils.transactionManager.doTransaction(txn);
+			itemId = txn.item.id;
+		}
+		abH2me.aURI = uri;
+		StarUI.showEditBookmarkPopup(itemId, anchor, "before_start");
+	},
+
 	init: function() {
 		//*** implement "fill selected text in description" feature
 		abH2me.hookFunc(PlacesCommandHook, "bookmarkPage",
@@ -839,6 +869,19 @@ var abH2me = {
 		abH2me.hookFunc(gEditItemOverlay, "onFolderMenuListCommand",
 			"this._folderTree.selectItems([container]);",
 			"$& this._folderTree.boxObject.ensureRowIsVisible(this._folderTree.view.selection.currentIndex);");
+
+		//*** implement "allow to create duplicate bookmark" feature
+		abH2me.hookFunc(PlacesUtils, "getMostRecentBookmarkForURI",
+				/{/,
+				'$& if (abH2me.isDupBmkAllowed) { return -1; }');
+
+		//*** replace bookmarkLink UI with editBookmarkPanel
+		nsContextMenu.prototype.bookmarkLink = abH2me.bookmarkLink;
+
+		//correct editBookmarkPanel [remove] button count
+		abH2me.hookFunc(PlacesUtils, "getBookmarksForURI",
+				/{/,
+				'$& if (abH2me.aURI) { aURI = abH2me.aURI; delete abH2me.aURI; }');
 
 		window.addEventListener("load", abH2me.onload, false);
 	},

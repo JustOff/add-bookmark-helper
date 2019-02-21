@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "Dodawaj zakładki na szczycie menu">
 <!ENTITY misc.showIconic "Wyświetlaj ikonę pozycji [Dodaj zakładkę tutaj...]">
 <!ENTITY misc.ignorePinned "Ignoruj przypięte karty przy używaniu opcji &quot;Dodaj zakładki do wszystkich kart&quot;">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

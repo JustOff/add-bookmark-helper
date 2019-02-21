@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "Προσθήκη νέων σελιδοδεικτών στην κορυφή του μενού">
 <!ENTITY misc.showIconic "Εμφάνιση αντικειμένου μενού [Προσθήκη Σελιδοδείκτη εδώ...]">
 <!ENTITY misc.ignorePinned "Αγνόησε τις πρωτεύουσες καρτέλες στο [Όλες οι καρτέλες ως σελιδοδείκτης...]">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

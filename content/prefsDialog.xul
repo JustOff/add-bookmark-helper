@@ -23,6 +23,7 @@
       <preference id="misc-inserttop"    name="extensions.abh2me.misc.insertTop"    type="bool" instantApply="true"/>
       <preference id="misc-showiconic"   name="extensions.abh2me.misc.showIconic"   type="bool" instantApply="true"/>
       <preference id="misc-ignorepinned" name="extensions.abh2me.misc.ignorePinned" type="bool" instantApply="true"/>
+      <preference id="misc-duplicateallowed" name="extensions.abh2me.misc.duplicateAllowed" type="bool" instantApply="true"/>
     </preferences>
 
     <vbox flex="1">
@@ -105,6 +106,7 @@
           <checkbox label="&misc.insertTop;"    preference="misc-inserttop"/>
           <checkbox label="&misc.showIconic;"   preference="misc-showiconic"/>
           <checkbox label="&misc.ignorePinned;" preference="misc-ignorepinned"/>
+          <checkbox label="&misc.duplicateAllowed;" preference="misc-duplicateallowed"/>
       </groupbox>
     </vbox>
 

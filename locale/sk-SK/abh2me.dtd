@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "Vložiť Záložky navrch ponuky">
 <!ENTITY misc.showIconic "Zobraziť ikonu položky [Pridať medzi záložky...]">
 <!ENTITY misc.ignorePinned "Ignorovať pripnuté karty pri použití voľby [Pridať všetky karty medzi záložky...]">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "메뉴 상단으로 북마크 삽입">
 <!ENTITY misc.showIconic "[Add Bookmark Here...] 메뉴 항목의 아이콘 표시">
 <!ENTITY misc.ignorePinned "[Bookmark All Tabs...]할 때 고정된 탭은 무시">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

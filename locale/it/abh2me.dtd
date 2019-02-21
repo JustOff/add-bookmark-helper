@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "Aggiungi i segnalibri sopra a quelli presenti nella cartella">
 <!ENTITY misc.showIconic "Mostra l&apos;icona della voce di menu 'Nuovo segnalibro qui…'">
 <!ENTITY misc.ignorePinned "Ignora le &apos;Schede applicazione&apos; quando si seleziona 'Tutte le schede nei segnalibri…'">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

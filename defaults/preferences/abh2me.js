@@ -48,6 +48,7 @@ pref("extensions.abh2me.misc.insertTop"   , true);
 pref("extensions.abh2me.misc.tagsInline"  , true);
 pref("extensions.abh2me.misc.showIconic"  , true);
 pref("extensions.abh2me.misc.ignorePinned", true);
+pref("extensions.abh2me.misc.duplicateAllowed", false);
 
 pref("extensions.abh2me.folder.middleClick"  , 0);
 pref("extensions.abh2me.folder.insideFolder" , false);

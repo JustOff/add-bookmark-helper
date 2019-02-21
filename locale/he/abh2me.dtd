@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "הכנסת סימניות לראש התפריט">
 <!ENTITY misc.showIconic "הצגת [הוספת סימנייה כאן...] אייקון פריט התפריט">
 <!ENTITY misc.ignorePinned "התעלמות מלשוניות נעוצות כאשר [הוספת כל הלשוניות לסימניות...]">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

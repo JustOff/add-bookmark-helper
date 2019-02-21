@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "Vložit Záložky navrch položky">
 <!ENTITY misc.showIconic "Zobrazit [Přidat záložku zde ...]  Ikona v menu">
 <!ENTITY misc.ignorePinned "Ignorovat připnuté panely [Přidat všechny panely do záložek ...]">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

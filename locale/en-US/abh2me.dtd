@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "Insert Bookmarks to the Top of Menu">
 <!ENTITY misc.showIconic "Show [Add Bookmark Here...] Menuitem Icon">
 <!ENTITY misc.ignorePinned "Ignore Pinned Tabs when [Bookmark All Tabs...]">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">

@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "由書籤選單頂端加入書籤">
 <!ENTITY misc.showIconic "顯示 [加入書籤至此...] 選單項目圖示">
 <!ENTITY misc.ignorePinned "[所有分頁加入書籤...] 時，忽略釘選的分頁">
+<!ENTITY misc.duplicateAllowed "允許 [加入書籤至此...] 建立重複的書籤">

@@ -56,3 +56,4 @@
 <!ENTITY misc.insertTop "Bladwijzers bovenaan het menu toevoegen">
 <!ENTITY misc.showIconic "Pictogram menuitem [Bladwijzer hier toevoegen...] weergeven">
 <!ENTITY misc.ignorePinned "Vastgezette tabbladen negeren bij [Bladwijzer van alle tabbladen te maken...]">
+<!ENTITY misc.duplicateAllowed "Allow [Add Bookmark Here...] create Duplicate Bookmarks">
