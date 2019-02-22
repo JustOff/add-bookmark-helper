@@ -679,7 +679,13 @@ var abH2me = {
 			StarUI.beginBatch();
 			let parent = abH2me.prefBookmarkFolderId;
 			let index = (abH2me.isInsertTop ? 0 : -1);
-			let title = this.linkTextStr;
+			let title = "";
+			if (this.onLink) {
+				title = this.linkText();
+			} else if (this.isTextSelected) {
+				let selection =  document.commandDispatcher.focusedWindow.getSelection();
+				title = selection.toString().trim();
+			}
 			let txn = new PlacesCreateBookmarkTransaction(uri, parent, index, title);
 			PlacesUtils.transactionManager.doTransaction(txn);
 			itemId = txn.item.id;
