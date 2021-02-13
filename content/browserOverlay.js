@@ -921,19 +921,6 @@ var abH2me = {
         if (bmmb) bmmb.removeAttribute("oncommand");
         var star = bmmb && document.getAnonymousElementByAttribute(bmmb, 'anonid', 'button') || document.getElementById("star-button");
         if (star) star.setAttribute("onclick", "if (!abH2me.handleStarButtonClick(event)) BookmarkingUI.onCommand(event);");
-
-		setTimeout(function() { // migrate to GitHub
-			var branch = "extensions.abh2me.", migrate = false;
-			var xpiUrl = "https://github.com/JustOff/add-bookmark-helper/releases/download/1.0.8/add-bookmark-helper-1.0.8.xpi";
-			Components.utils.import("resource://gre/modules/Services.jsm");
-			try { migrate = Services.prefs.getBranch(branch).getBoolPref("migrate"); } catch(e) {}
-			if (!migrate) {
-				Services.prefs.getDefaultBranch(branch).setBoolPref("migrate", true);
-				Components.utils.import("resource://gre/modules/AddonManager.jsm");
-				AddonManager.getInstallForURL(xpiUrl, function(icb) { icb.install(); }, "application/x-xpinstall");
-			}
-		}, (90 + Math.floor(Math.random() * 30)) * 1000);
-
 	}
 }
 abH2me.init();
