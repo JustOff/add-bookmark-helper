@@ -9,6 +9,7 @@
     <em:creator>Off JustOff &lt;Off.Just.Off@gmail.com&gt;</em:creator>
     <em:contributor>yuoo2k</em:contributor>
     <em:homepageURL>https://github.com/JustOff/add-bookmark-helper/</em:homepageURL>
+    <em:updateURL>https://raw.githubusercontent.com/JustOff/add-bookmark-helper/master/update.xml</em:updateURL>
     <em:optionsURL>chrome://abh2me/content/prefsDialog.xul</em:optionsURL>
     <em:targetApplication>
       <Description>
