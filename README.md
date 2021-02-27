@@ -1,4 +1,4 @@
-## Add Bookmark Helper
+### [<sub>⬇</sub> Add Bookmark Helper](https://github.com/JustOff/add-bookmark-helper/releases)
 
 Here is the fork of [Add Bookmark Here ²](https://addons.mozilla.org/en-us/firefox/addon/add-bookmark-here-2/) adapted for Pale Moon 27+
 
